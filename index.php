@@ -60,10 +60,10 @@
 	    <div class="row" style="background-color:#762d41">
 	        <div class="col-md-3 px-5" style="border-right:2px solid #bd945c;  margin-top:3rem!important; margin-bottom:3rem!important">
 	            <div class="visible-lg visible-md ">
-	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="assets/img/bc_blanco.png">
+	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="assets/img/escudo-baja-california.png">
 	            </div>
 	            <div class="visible-sm visible-xs text-center">
-	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="assets/img/bc_blanco.png">
+	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="assets/img/escudo-baja-california.png">
 	            </div>
 	        </div>
 	        <div class="col-md-9 px-5">
