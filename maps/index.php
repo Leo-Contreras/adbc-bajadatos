@@ -1,0 +1,210 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baja Datos B.C.</title>
+    <meta
+      name="description"
+      content="An interactive playground for Google Maps Platform JavaScript samples."
+    />
+
+  	<meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      }
+      .card-header {
+        margin: 0;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        border-radius: 6px 6px 0 0;
+        background: #f5f5f5;
+        font-weight: normal;
+      }
+      .card-footer {
+        padding: 10px;
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+      }
+
+      .button {
+        appearance: none;
+        background-color: #6a1c32;
+        border: 1px solid #dadce0;
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 4px 12px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+
+      .button:focus:not(:focus-visible):not(.focus-visible) {
+        box-shadow: none;
+        outline: none;
+      }
+
+      .button:hover {
+        background-color: #B17A45;
+      }
+
+      iframe {
+        border: 0;
+        flex-grow: 1;
+      }
+
+      #sidebar {
+        width: 300px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    </style>
+
+    <script>
+      function setIframe(src) {
+        document.getElementById("iframe").src = src;
+      }
+    </script>
+  </head>
+  
+  
+      <style>
+
+        body {
+            /* background-image: url("https://appsextssl.ebajacalifornia.gob.mx/Verificacion/Content/img/escudoM2.png"); */
+            background-repeat: no-repeat;
+            background-color: #f5f5f5;
+        }
+		
+		
+
+    </style>
+	
+	
+  <body>
+    <div style="display: flex; gap: 10px; height: 100vh">
+      <div id="sidebar">
+       
+		
+		   <div class="card">
+          
+          <div class="card-footer">
+		  
+            <button
+              class="button"
+              onclick="setIframe('inmujer_mexicali.html')" style="width: 100%;"
+            >
+              Mexicali
+            </button>
+          </div>
+        </div>
+
+        <!-- mapa -->
+         <div class="card">
+          
+          <div class="card-footer">
+      
+            <button
+              class="button"
+              onclick="setIframe('inmujer_ensenada.html')" style="width: 100%;"
+            >
+              Ensenada
+            </button>
+          </div>
+        </div>
+        <!-- fin mapa -->
+
+        <div class="card">
+          
+          <div class="card-footer">
+            <button
+              class="button"
+              onclick="setIframe('inmujer_rosarito.html')" style="width: 100%;"
+            >
+              Rosarito
+            </button>
+      
+          </div>
+        </div>
+
+
+          <!-- mapa -->
+         <div class="card">
+          
+          <div class="card-footer">
+      
+            <button
+              class="button"
+              onclick="setIframe('inmujer_tecate.html')" style="width: 100%;"
+            >
+              Tecate
+            </button>
+          </div>
+        </div>
+        <!-- fin mapa -->
+
+
+           <!-- mapa -->
+         <div class="card">
+          
+          <div class="card-footer">
+      
+            <button
+              class="button"
+              onclick="setIframe('inmujer_tijuana.html')" style="width: 100%;"
+            >
+              Tijuana
+            </button>
+          </div>
+        </div>
+        
+
+    
+		
+		
+      </div>
+      <div
+        style="display: flex; flex-direction: column; gap: 10px; flex-grow: 1"
+      >
+        <iframe id="iframe" src="inmujer_general.html" allow="geolocation" ></iframe>
+     
+      </div>
+    
+    </div>
+  </body>
+</html>
