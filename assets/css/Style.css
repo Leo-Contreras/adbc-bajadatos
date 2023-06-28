@@ -6200,8 +6200,8 @@ form.contactForm textarea {
 }
 @media(min-width: 992px) {
     #main {
-        width: 94%;
-        padding: 0;
+        width: 100%;
+        /*        padding: 0;*/
         display: -ms-flexbox;
         display: flex
     }
