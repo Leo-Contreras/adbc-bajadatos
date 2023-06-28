@@ -462,6 +462,9 @@
 				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
 				<div class="line"></div>
 			</div>
+			<div style="padding: 100px; ">
+		<iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe>
+		</div>
 		</div>
 	</div>
 
