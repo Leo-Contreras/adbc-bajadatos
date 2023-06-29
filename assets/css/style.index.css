@@ -35,6 +35,9 @@
     .encabezadoTexto {
         width: 450px !important;
     }
+    .inputSuscribete {
+        width: 80% !important;
+    }
 }
 @media screen and (max-width: 420px) {
     .pnlTitulo {
@@ -77,6 +80,30 @@
     .encabezadoSuscribete {
         font-size: 21px !important;
     }
+}
+.activeSelected {
+    color: #6a1c32;
+    background: #FCF1DC;
+}
+.activeSelected a {
+    color: #6a1c32;
+}
+.activeSelected a:hover {
+    color: #6a1c32!important;
+}
+.activeSelected a:link, a:visited, a[href^=tel] {
+    color: #6a1c32!important;
+}
+.contactoSoporte {
+    position: absolute;
+    right: 10%;
+    bottom: 35%;
+}
+.LinkNav {
+    color: #6a1c32;
+}
+.LinkNav:hover {
+    color: #b17a45;
 }
 .pnlMain {
     padding-top: 11% !important;
@@ -220,7 +247,7 @@
 .pnlSuscribete {
     position: relative;
     display: flex;
-    padding: 4% 2% 1% 2%;
+    padding: 4% 2% 4% 2%;
 }
 .pnlSuscribeteContenido {
     position: relative;
@@ -240,9 +267,9 @@ input.inputSuscribete {
 input.image_buscar {
     width: 20px;
     border: 0px;
-    position: absolute;
-    top: 63%;
-    left: 26.5%;
+    position: relative;
+    left: 1.8%;
+    top: 5px;
 }
 .encabezadoSuscribete {
     color: var(--black, #131313);
@@ -250,6 +277,7 @@ input.image_buscar {
     font-family: Montserrat;
     font-weight: 500;
     line-height: 56px;
+    padding-bottom: 2%;
 }
 /*.inputSuscribete {
     text-align: center;
@@ -267,6 +295,13 @@ input.image_buscar {
     color: #fff;
     background-color: #6a1c32;
     height: 50px;
+}
+.btnSuscribete:hover {
+    color: #b17a45;
+}
+.btnImg:hover {
+    color: #b17a45;
+    /*    background-color: #b17a45;*/
 }
 .pnlMapas {
     position: relative;
@@ -439,4 +474,38 @@ body {
     .post-slide .post-content {
         padding: 0px 15px 25px 15px;
     }
+}
+/*
+ESTILOS PAGINA GOBIERNO ABIERTO
+*/
+
+@media screen and (max-width: 991px) {
+    .pnlImagen {
+        padding-top: 0!important;
+    }
+}
+.pnlImagen {
+    padding-top: 8%;
+}
+.imgEncabezado {
+    width: 100%;
+}
+.ContenidoTexto {
+    padding-top: 2%;
+}
+.ContenidoTitulo {
+    color: #6a1c32;
+    font-family: Montserrat;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    font-size: 76px;
+}
+.ContenidoSubTitulo {
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    text-align: justify;
 }

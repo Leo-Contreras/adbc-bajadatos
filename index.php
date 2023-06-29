@@ -23,8 +23,8 @@
 	                        <a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
 	                    </p>
 	                </div>
-	                <div>
-	                    
+	                <div class="contactoSoporte">
+	                    <a class="LinkNav" title="Contacto" href="index.php">Contacto y Soporte</a>
 	                </div>
 	            </div>
 	        </div>
@@ -32,12 +32,12 @@
 	        <div id="header-bottom">
 	            <div class="ic-container-fluid">
 	                <nav id="mainNav" aria-label="Navegación del sitio">
-	                    <ul id="nav" class="sf-js-enabled" style="color: white;">
-	                        <li id="navTab01" class="active">
+	                    <ul id="nav" class="sf-js-enabled">
+	                        <li id="navTab01" class="activeSelected">
 	                            <a title="Inicio" href="#" class="mainNavItem">Inicio</a>
 	                        </li>
 	                        <li id="navTab02">
-	                            <a title="Estadisticas" href="#" class="mainNavItem">Gobierno Abierto</a>
+	                            <a title="Estadisticas" href="gobiernoabierto.php" class="mainNavItem">Gobierno Abierto</a>
 	                        </li>
 	                        <li id="navTab03">
 	                            <a title="Gobierno" href="#" class="mainNavItem">Transparencia Proactiva</a>
@@ -444,7 +444,7 @@
 					<form>
 						<input type="image" src="assets/img/IconL.png" class="image_buscar">
 						<input class="inputSuscribete" type="text" id="suscribe" name="suscribe" placeholder="Correo electrónico">
-						<button class="btn btnSuscribete" >Registrarme <img class="" src="assets/img/IconR.svg" width="25"></button>
+						<button class="btn btnSuscribete" >Registrarme <img class="btnImg" src="assets/img/IconR.svg" width="25"></button>
 					</form>
 				</div>
 			</div>
@@ -482,37 +482,37 @@
 	        <div class="col-md-9 px-5">
 	            <div class="row footer-enlaces" style="margin-top:25px!important;">
 	                <div class="col-md-5">
-							<ul>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/Actividades"> Datos Abiertos</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">Datos Abiertos de Mexico</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">DataMexico</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SolicitudInformacion">Principios - International Open Data Charter</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SitiosInteres">Conferencia Nacional de Datos Abiertos Mexico</a></li>
-							</ul>                              
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/Actividades"> Datos Abiertos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">Datos Abiertos de Mexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">DataMexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SolicitudInformacion">Principios - International Open Data Charter</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SitiosInteres">Conferencia Nacional de Datos Abiertos Mexico</a></li>
+						</ul>                              
 	                </div>
 	                <div class="col-md-4">
-							<ul>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Diagnosticos</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Instituto Nacional de Estadistica y Geografia (INEGI)</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Indice de Desarrollo Digital Estatal (IDDE) 2022</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Metrica Gobierno Abierto 2021</a></li>
-							</ul>
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Diagnosticos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Instituto Nacional de Estadistica y Geografia (INEGI)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Indice de Desarrollo Digital Estatal (IDDE) 2022</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Metrica Gobierno Abierto 2021</a></li>
+						</ul>
 	                </div>
-						<div class="col-md-3">
-									<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
-							<ul>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Alianza Para el gobierno abierto (OGP)</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Cocreacion desde lo local</a></li>
-							</ul>
-							<br>
-							<ul>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Participacion Ciudadana</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Codeando</a></li>
-								<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> SocialTIC</a></li>
-							</ul>
-						</div>
+					<div class="col-md-3">
+						<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Alianza Para el gobierno abierto (OGP)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Cocreacion desde lo local</a></li>
+						</ul>
+						<br>
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Participacion Ciudadana</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Codeando</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> SocialTIC</a></li>
+						</ul>
+					</div>
 	            </div>   
 	        </div>
 	        <div class="row">
