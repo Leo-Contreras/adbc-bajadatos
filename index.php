@@ -12,6 +12,12 @@
 	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/Style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.index.css">
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+	<!-- MDB -->
+	<link href="assets/css/mdb.min.css" rel="stylesheet"/>
 </head>
 <body>
 	<div class="header-background">
@@ -20,42 +26,52 @@
 	            <div class="ic-container-fluid">
 	                <div id="logo" title="Clic para regresar a la página de inicio">
 	                    <p class="defaultLogo">
-	                        <a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+	                        <a href="index.php"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
 	                    </p>
 	                </div>
 	                <div class="contactoSoporte">
-	                    <a class="LinkNav" title="Contacto" href="index.php">Contacto y Soporte</a>
+	                    <a class="LinkNav" title="Contacto" href="contacto.php">Contacto y Soporte</a>
 	                </div>
 	            </div>
 	        </div>
-	        <!--header-mid-->
-	        <div id="header-bottom">
-	            <div class="ic-container-fluid">
-	                <nav id="mainNav" aria-label="Navegación del sitio">
-	                    <ul id="nav" class="sf-js-enabled">
-	                        <li id="navTab01" class="activeSelected">
-	                            <a title="Inicio" href="#" class="mainNavItem">Inicio</a>
-	                        </li>
-	                        <li id="navTab02">
-	                            <a title="Estadisticas" href="gobiernoabierto.php" class="mainNavItem">Gobierno Abierto</a>
-	                        </li>
-	                        <li id="navTab03">
-	                            <a title="Gobierno" href="#" class="mainNavItem">Transparencia Proactiva</a>
-	                        </li>
-	                        <li id="navTab04">
-	                            <a title="Actividades" href="#" class="mainNavItem">Gobierno Digital</a>
-	                        </li>
-	                        <li id="navTab05">
-	                            <a title="Solicitud" href="#" class="mainNavItem">Estadísticas BC</a>
-	                        </li>
-	                        <li id="navTab06">
-	                            <a title="Buzon" href="#" class="mainNavItem">Datos Abiertos</a>
-	                        </li>
-	                    </ul>
-	                </nav>
-	            </div>
+	        <div class="">
+	        	<nav class="navbar navbar-expand-lg" style="background: #6a1c32;">
+				  	<!-- Container wrapper -->
+				  	<div class="container-fluid ">
+				    	<!-- Toggle button -->
+				    	<button class="navbar-toggler"type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff; padding: 16px 0;">
+				      		<i class="fas fa-bars"></i>
+				    	</button>
+				    	<!-- Collapsible wrapper -->
+				    	<div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+				      		<!-- Left links -->
+				      		<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
+				        		<li id="navTab01">
+				        		  	<a class="mainNavItem activeSelected" href="index.php">INICIO</a>
+				        		</li>
+				        		<li id="navTab02">
+				        		  	<a class="mainNavItem" href="gobiernoabierto.php">GOBIERNO ABIERTO</a>
+				        		</li>
+				        		<li id="navTab03">
+				        		  	<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
+				        		</li>
+				        		<li id="navTab04">
+				        		  	<a class="mainNavItem" href="gobiernodigital.php">Gobierno Digital</a>
+				        		</li>
+				        		<li id="navTab05">
+				        		  	<a class="mainNavItem" href="estadisticasbc.php">Estadísticas BC</a>
+				        		</li>
+				        		<li id="navTab06">
+				          			<a class="mainNavItem" href="datosabiertos.php">Datos Abiertos</a>
+				        		</li>
+				      		</ul>
+				      	<!-- Left links -->
+				    	</div>
+				    <!-- Collapsible wrapper -->
+				  	</div>
+				<!-- Container wrapper -->
+				</nav>
 	        </div>
-	        <!--header-bottom-->
 	    </header>
 	</div>
 	<!--
@@ -94,11 +110,11 @@
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
-                            <a href="#">Gobierno Abierto BC</a>
+                            Gobierno Abierto BC
                         </h3>
                         <p class="post-description">Priorizamos la transparencia, estableciendo una comunicación constante con la ciudadañia.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">NONOCE MÁS</a>
+                        <a href="#" class="read-more">NONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
@@ -108,11 +124,11 @@
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
-                            <a href="#">Transparencia proactiva</a>
+                            Transparencia proactiva
                         </h3>
                         <p class="post-description">Compartimos información adicional de manera voluntaria, más allá de lo requerido por la ley.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS</a>
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
@@ -122,11 +138,11 @@
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
-                            <a href="#">Gobierno Digital</a>
+                            Gobierno Digital
                         </h3>
                         <p class="post-description">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS</a>
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
@@ -136,11 +152,11 @@
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
-                            <a href="#">Estadísticas BC</a>
+                            Estadísticas BC
                         </h3>
                         <p class="post-description">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS</a>
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
@@ -150,11 +166,11 @@
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
-                            <a href="#">Datos abiertos</a>
+                            Datos abiertos
                         </h3>
                         <p class="post-description">Sección para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS</a>
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 
@@ -182,7 +198,7 @@
 				    	<div class="carousel-item active">
 				      		<div class="contenidoCarousel d-block w-100">
 				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row center">
+				      				<div class="row centrarcontenidocarousel">
 				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
 				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
 				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
@@ -205,7 +221,7 @@
 				    	<div class="carousel-item">
 				    		<div class="contenidoCarousel d-block w-100">
 				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row center">
+				      				<div class="row centrarcontenidocarousel">
 				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
 				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
 				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
@@ -228,7 +244,7 @@
 				    	<div class="carousel-item">
 				    		<div class="contenidoCarousel d-block w-100">
 				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row center">
+				      				<div class="row centrarcontenidocarousel">
 				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
 				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
 				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
@@ -263,7 +279,7 @@
 	</div>
 	<!--
 		//
-		//SECCIÓN INFORMACIÓN DE INTERÉS
+		//SECCIÓN NOTICIAS BC
 		//
 	-->
 	<div class="pnlNoticiasBC">
@@ -304,7 +320,7 @@
 					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
@@ -320,7 +336,7 @@
 					      						</div>
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">Noticia 2</p>
@@ -347,7 +363,7 @@
 					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
@@ -363,7 +379,7 @@
 					      						</div>
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">Noticia 2</p>
@@ -390,7 +406,7 @@
 					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
@@ -406,7 +422,7 @@
 					      						</div>
 					      					</div>
 					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex">
+					      						<div class="row d-flex gridCentrar">
 					      							<div class="gridCajas">
 							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
 							      						<p class="gridTitulo">Noticia 2</p>
@@ -462,9 +478,9 @@
 				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
 				<div class="line"></div>
 			</div>
-			<div style="padding: 100px; ">
-		<iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe>
-		</div>
+			<!-- <div style="padding: 100px; "> -->
+				<!-- <iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe> -->
+			<!-- </div> -->
 		</div>
 	</div>
 
@@ -528,5 +544,10 @@
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/slide.js"></script>
+	<!-- MDB -->
+	<script
+	  type="text/javascript"
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+	></script>
 </body>
 </html>

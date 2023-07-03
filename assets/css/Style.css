@@ -153,11 +153,21 @@ header {
 }
 /* - Navegador - */
 
+input[type=checkbox] {
+    display: none;
+}
+/* HAMBURGER MENU */
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
 #mainNav {
     width: 100%;
     background: #E0E0E0;
     position: absolute;
-    display: none;
+    display: block;
     top: 100%
 }
 @media(min-width: 992px) {
@@ -166,6 +176,12 @@ header {
         background: none;
         display: block!important;
         top: auto
+    }
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+    .hamburger {
+        display: block;
     }
 }
 #nav {
@@ -821,7 +837,7 @@ a.mainNavItem {
     width: 100%;
     background: rgba(106, 27, 49, 0.92);
     padding: 16px 0;
-    display: none
+    display: block;
 }
 .newsFeedParser #header-bottom, .hideBanner #header-bottom {
     background: rgba(106, 27, 49, 0.92);
@@ -6212,7 +6228,7 @@ form.contactForm textarea {
     width: 94%;
     max-width: 1404px;
     margin: 0 auto;
-    padding: 0;
+    padding: 16px 0;
     position: relative;
     z-index: 1
 }
