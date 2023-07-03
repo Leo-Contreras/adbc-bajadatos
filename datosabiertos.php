@@ -85,7 +85,7 @@
 	    </header>
 	</div>
 	<div class="pnlImagen">
-		<img class="imgEncabezado" src="assets/img/031.png" alt="IMG-ENGOBIERNO">
+		<img class="imgEncabezado" src="assets/img/041.png" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//
@@ -97,10 +97,10 @@
 			<div class="centrar">
 				<div class="ContenidoTexto">
 					<div>
-						<label class="ContenidoTitulo">Gobierno Digital</label>
+						<label class="ContenidoTitulo">Datos abiertos</label>
 					</div>
 					<div>
-						<label class="ContenidoSubTitulo">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea y presenciales en un sólo lugar.</label>
+						<label class="ContenidoSubTitulo">Sección que concentra conjuntos de datos abiertos para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</label>
 					</div>
 				</div>
 			</div>
