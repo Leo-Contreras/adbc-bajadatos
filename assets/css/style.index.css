@@ -1,0 +1,511 @@
+@media screen and (max-width: 1695px) {
+    input.image_buscar {
+        display: none;
+    }
+}
+@media screen and (max-width: 1165px) {
+    .gridContenidoDos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 920px) {
+    .contenidoCarouselDos {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .contenidoCarouselDos {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 592px) {
+    .encabezadoTexto {
+        width: 510px !important;
+    }
+    .pnlNoticiasTitulo {
+        font-size: 40px !important;
+    }
+    .pnlTitulo {
+        font-size: 70px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .encabezadoTexto {
+        width: 450px !important;
+    }
+    .inputSuscribete {
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    .pnlTitulo {
+        width: 380px;
+        font-size: 30px !important;
+    }
+    .pnlSubTitulo {
+        width: 290px;
+        font-size: 13px !important;
+    }
+    .encabezadoImagen {
+        max-width: 380px !important;
+    }
+    .pnlNoticiasTitulo {
+        width: 380px;
+        font-size: 30px !important;
+    }
+    .pnlNoticiasSubTitulo {
+        width: 290px;
+        font-size: 13px !important;
+    }
+    .pnlNoticiasImagen {
+        width: 500px !important;
+        height: 320px !important;
+    }
+    .noticiasImagen {
+        width: 100%;
+    }
+    .carouselIteres {
+        padding-top: 10% !important;
+    }
+    .line {
+        left: 45% !important;
+        width: 12% !important;
+    }
+    .gridImg {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .encabezadoSuscribete {
+        font-size: 21px !important;
+    }
+}
+.activeSelected {
+    color: #6a1c32;
+    background: #FCF1DC;
+}
+.activeSelected a {
+    color: #6a1c32;
+}
+.activeSelected a:hover {
+    color: #6a1c32!important;
+}
+.activeSelected a:link, a:visited, a[href^=tel] {
+    color: #6a1c32!important;
+}
+.contactoSoporte {
+    position: absolute;
+    right: 10%;
+    bottom: 35%;
+}
+.LinkNav {
+    color: #6a1c32;
+}
+.LinkNav:hover {
+    color: #b17a45;
+}
+.pnlMain {
+    padding-top: 11% !important;
+    display: block;
+}
+.pnlEncabezado {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.pnlTarjetas {
+    padding: 2% 0;
+}
+.pnlIntereses {
+    position: relative;
+    display: flex;
+    padding: 0% 2% 5% 2%;
+    background: #E5E7EB;
+}
+.carouselIteres {
+    padding-top: 4%;
+}
+.contenidoCarousel {
+    display: grid!important;
+    justify-content: center;
+    align-items: center;
+}
+.carouselImg {
+    width: 280px;
+    height: 200px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.carouselTitulo {
+    width: 280px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.carouselSubTitulo {
+    width: 280px;
+    font-size: 13px;
+}
+.encabezadoTexto {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
+}
+.encabezadoImagen {
+    width: 612px;
+    height: 557px;
+    flex-shrink: 0;
+}
+.pnlTitulo {
+    color: #6a1c32;
+    font-size: 96px;
+    font-family: Montserrat;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+.pnlSubTitulo {
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    text-align: justify;
+}
+.pnlNoticiasBC {
+    padding: 0% 2% 5% 2%;
+}
+.pnlNoticias {
+    padding-top: 3% !important;
+}
+.pnlNoticiasTitulo {
+    /*    color: #6a1c32;*/
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: normal;
+    letter-spacing: -1.5px;
+}
+.pnlNoticiasSubTitulo {
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    text-align: justify;
+}
+.pnlNoticiasImagen {
+    width: 540px;
+    height: 576px;
+}
+.pnlGrid {
+    padding-top: 2%;
+}
+.pnlGridCarousel {
+    display: flex;
+    justify-content: center;
+}
+.pnlGridContenidoImg {
+    display: flex;
+    justify-content: center;
+}
+.gridImg {
+    width: 540px;
+    height: 724px;
+}
+.gridImgIcon {
+    width: 40px;
+    height: auto;
+}
+.gridCajas {
+    width: 350px;
+    height: 330px;
+    margin: 2% 0;
+    padding: 2%;
+    position: relative;
+    border: 1px solid #d7b6b6;
+    box-sizing: border-box;
+}
+.gridTitulo {
+    width: 330px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+}
+.gridSubTitulo {
+    width: 330px;
+    font-size: 13px;
+    position: absolute;
+    top: 40%;
+}
+.gridLink {
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+.pnlSuscribete {
+    position: relative;
+    display: flex;
+    padding: 4% 2% 4% 2%;
+}
+.pnlSuscribeteContenido {
+    position: relative;
+    text-align: center;
+}
+input.inputSuscribete {
+    text-align: left;
+    padding-left: 2%;
+    position: relative;
+    background: transparent;
+    outline: none;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #cfc9c9;
+}
+input.image_buscar {
+    width: 20px;
+    border: 0px;
+    position: relative;
+    left: 1.8%;
+    top: 5px;
+}
+.encabezadoSuscribete {
+    color: var(--black, #131313);
+    font-size: 38px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 56px;
+    padding-bottom: 2%;
+}
+/*.inputSuscribete {
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #cfc9c9;
+}
+#suscribe {
+    text-align: left;
+    padding-left: 1%;
+}*/
+
+.btnSuscribete {
+    color: #fff;
+    background-color: #6a1c32;
+    height: 50px;
+}
+.btnSuscribete:hover {
+    color: #b17a45;
+}
+.btnImg:hover {
+    color: #b17a45;
+    /*    background-color: #b17a45;*/
+}
+.pnlMapas {
+    position: relative;
+    display: flex;
+    padding: 0% 2% 5% 2%;
+}
+.etiquetaConocenos {
+    color: var(--red, #6A1C32);
+    text-align: center;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.36px;
+}
+.subetiqueta {
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+}
+.line {
+    position: absolute;
+    width: 3%;
+    height: 6px;
+    background-color: #b17a45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-top: 10px;
+}
+body {
+    background-color: #f1f6ff;
+}
+#news-slider {
+    margin-top: 10px;
+}
+.post-slide {
+    background: #fff;
+    margin: 20px 15px 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 22px -9px #bbcbd8;
+}
+.post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    /*    margin: -12px 15px 8px 15px;*/
+    /*    margin-left: -10px;*/
+}
+.post-slide .post-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+.post-slide:hover .post-img img {
+    transform: scale(1.1, 1.1);
+}
+.post-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(-45deg, rgba(6, 190, 244, 0.75) 0%, rgba(45, 112, 253, 0.6) 100%);
+    transition: all 0.50s linear;
+}
+.post-slide:hover .over-layer {
+    opacity: 1;
+    text-decoration: none;
+}
+.post-slide .over-layer i {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+.post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+}
+.post-slide .post-title {
+    text-align: center;
+}
+.post-slide .post-title a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover {
+    text-decoration: none;
+    color: #3498db;
+}
+.post-slide .post-description {
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 25px;
+    text-align: justify;
+    padding-right: 20px;
+    height: 150px;
+}
+.post-slide .post-date {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+.post-slide .post-date i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #CFDACE;
+}
+.post-slide .read-more {
+    padding: 7px 20px;
+    float: right;
+    font-size: 12px;
+    background: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px -10px #1376c5;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.post-slide .read-more:hover {
+    background: #3498db;
+    text-decoration: none;
+    color: #fff;
+}
+.owl-controls .owl-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+/*.owl-controls .owl-buttons .owl-prev {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    left: 15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after, .owl-controls .owl-buttons .owl-next:after {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #333;
+    font-size: 30px;
+}
+.owl-controls .owl-buttons .owl-next:after {
+    content: "\f105";
+}*/
+
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content {
+        padding: 0px 15px 25px 15px;
+    }
+}
+/*
+ESTILOS PAGINA GOBIERNO ABIERTO
+*/
+
+@media screen and (max-width: 991px) {
+    .pnlImagen {
+        padding-top: 0!important;
+    }
+}
+.pnlImagen {
+    padding-top: 8%;
+}
+.imgEncabezado {
+    width: 100%;
+}
+.ContenidoTexto {
+    padding-top: 2%;
+}
+.ContenidoTitulo {
+    color: #6a1c32;
+    font-family: Montserrat;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    font-size: 76px;
+}
+.ContenidoSubTitulo {
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    text-align: justify;
+}

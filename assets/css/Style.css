@@ -303,10 +303,10 @@ a.mainNavItem {
         padding: 1rem 0;
         font-size: .94118rem;
         background-color: transparent;
-        /*        color: #000*/
+        color: #fff
     }
     .nav-bottom a.mainNavItem {
-        /*        color: white;*/
+        color: white;
         font-size: .82353rem
     }
     a.mainNavItem:after {
@@ -320,6 +320,9 @@ a.mainNavItem {
         left: 0;
         width: 100%;
         height: 100%
+    }
+    a.mainNavItem:after {
+        color: #6a1c32;
     }
     .current a.mainNavItem:after {
         border-color: #6a1c32;
@@ -342,7 +345,6 @@ a.mainNavItem {
     }
     a.mainNavItem.current:after, a.mainNavItem:focus:after, a.mainNavItem:hover:after, .sfHover a.mainNavItem:after {
         border-color: #b17a45;
-        /*        background: #FCF1DC;*/
         transform: scaleX(1)
     }
     #mainNav:hover a.mainNavItem, #mainNav:focus a.mainNavItem {
@@ -6200,8 +6202,8 @@ form.contactForm textarea {
 }
 @media(min-width: 992px) {
     #main {
-        width: 94%;
-        padding: 0;
+        width: 100%;
+        /*        padding: 0;*/
         display: -ms-flexbox;
         display: flex
     }
