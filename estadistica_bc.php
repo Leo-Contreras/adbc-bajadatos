@@ -4,6 +4,8 @@
     <title>Estadística BC</title>
     <!-- CSS de Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/Style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.index.css">
 
     <!-- JS de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -175,13 +177,58 @@
 
 </head>
 <body>
+<div class="header-background">
+	    <header class="nocontent">
+	        <div id="header-mid">
+	            <div class="ic-container-fluid">
+	                <div id="logo" title="Clic para regresar a la página de inicio">
+	                    <p class="defaultLogo">
+	                        <a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+	                    </p>
+	                </div>
+	                <div class="contactoSoporte">
+	                    <a class="LinkNav" title="Contacto" href="index.php">Contacto y Soporte</a>
+	                </div>
+	            </div>
+	        </div>
+	        <!--header-mid-->
+	        <div id="header-bottom">
+	            <div class="ic-container-fluid">
+	                <nav id="mainNav" aria-label="Navegación del sitio">
+	                    <ul id="nav" class="sf-js-enabled">
+	                        <li id="navTab01">
+	                            <a title="Inicio" href="index.php" class="mainNavItem">Inicio</a>
+	                        </li>
+	                        <li id="navTab02" class="activeSelected">
+	                            <a title="Estadisticas" href="gobiernoabierto.php" class="mainNavItem">Gobierno Abierto</a>
+	                        </li>
+	                        <li id="navTab03">
+	                            <a title="Gobierno" href="#" class="mainNavItem">Transparencia Proactiva</a>
+	                        </li>
+	                        <li id="navTab04">
+	                            <a title="Actividades" href="#" class="mainNavItem">Gobierno Digital</a>
+	                        </li>
+	                        <li id="navTab05">
+	                            <a title="Solicitud" href="estadistica_bc.php" class="mainNavItem">Estadísticas BC</a>
+	                        </li>
+	                        <li id="navTab06">
+	                            <a title="Buzon" href="#" class="mainNavItem">Datos Abiertos</a>
+	                        </li>
+	                    </ul>
+	                </nav>
+	            </div>
+	        </div>
+	        <!--header-bottom-->
+	    </header>
+	</div>
+
 
     <img src="assets/img/banner_estadistica.png" alt="Descripción del Banner" class = "banner">
         <div class="titulo-estadisticas">Estadisticas BC</div>
         <div class="container texto-descripcion">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave. Explora indicadores socioeconómicos, demográficos y de desarrollo que te ayudarán a comprender el estado actual y evaluar el progreso a lo largo del tiempo.</div>
     </div>
 
-        <div class="container">
+        <div class="container d-flex">
             <!-- Primer grupo de tabs -->   
             <div class="row"> 
                 <ul class="nav nav-tabs" role="tablist">
@@ -262,13 +309,13 @@
              </ul>
         </div>
 
-                <div class="tab-content">
+                <div class="tab-content d-flex">
                     <div role="tabpanel" class="tab-pane fade show active" id="ventanilla">
                     <button type="button" class="btn btn-custom">Usuarios adultos mayores de internet</button>
                     <button type="button" class="btn btn-custom">Digitalización del registro público</button>
                     <button type="button" class="btn btn-custom">Cobertura de redes móviles</button>
                     <button type="button" class="btn btn-custom">Usuarios de internet en zonas rurales</button>
-                    <button type="button" class="btn btn-custom">Usuarios de internet</button>
+                   
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="avance">
@@ -359,44 +406,130 @@
 
     </div>
 
+    <!-- FOOTER  -->
+	<footer class="page-footer font-small text-center" style="display: flex;">
+	    <div class="footer-line-yellow"></div>
+	    <div class="row" style="background-color:#762d41; width: 100%;">
+	        <div class="col-md-3 px-5" style="border-right:2px solid #bd945c;  margin-top:3rem!important; margin-bottom:3rem!important">
+	            <div class="visible-lg visible-md ">
+	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="assets/img/escudo-baja-california.png">
+	            </div>
+	            <div class="visible-sm visible-xs text-center">
+	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="assets/img/escudo-baja-california.png">
+	            </div>
+	        </div>
+	        <div class="col-md-9 px-5">
+	            <div class="row footer-enlaces" style="margin-top:25px!important;">
+	                <div class="col-md-5">
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/Actividades"> Datos Abiertos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">Datos Abiertos de Mexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">DataMexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SolicitudInformacion">Principios - International Open Data Charter</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SitiosInteres">Conferencia Nacional de Datos Abiertos Mexico</a></li>
+						</ul>                              
+	                </div>
+	                <div class="col-md-4">
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Diagnosticos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Instituto Nacional de Estadistica y Geografia (INEGI)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Indice de Desarrollo Digital Estatal (IDDE) 2022</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Metrica Gobierno Abierto 2021</a></li>
+						</ul>
+	                </div>
+					<div class="col-md-3">
+						<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Alianza Para el gobierno abierto (OGP)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Cocreacion desde lo local</a></li>
+						</ul>
+						<br>
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Participacion Ciudadana</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Codeando</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> SocialTIC</a></li>
+						</ul>
+					</div>
+	            </div>   
+	        </div>
+	        <div class="row">
+	            <div class="col-md-12">
+	                <p style="color:#ffffff;  font-size:13px; margin-top:10px;">© Gobierno del Estado de Baja California 2022 - Bajadatos </p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="pie-guinda"></div>
+	</footer>
+
+
 <script>
 
-    var ctxNuevoGrafico = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctxNuevoGrafico, {
-        type: 'doughnut',
-        data: {
-            labels: ['Hombres', 'Mujeres'],
-            datasets: [{
-                label: 'Población',
-                data: [285, 125],
-                backgroundColor: [
-                    'rgba(255, 165, 0, 0.5)',  // Naranja semi-transparente
-                    'rgba(255, 255, 255, 0.5)'  // Blanco semi-transparente
-                ],
-                borderColor: [
-                    'rgba(255, 165, 0, 1)',  // Naranja
-                    'rgba(255, 255, 255, 1)'  // Blanco
-                ],
-                borderWidth: 1
-            }]
+Highcharts.chart('ControlDigitalGrafica', {
+    chart: {
+        type: 'pie',
+        backgroundColor: 'transparent',
+        style: {
+            color: '#ffffff',
         },
-        options: {
-            responsive: true,
-            maintainAspectRatio: true,
-            aspectRatio: 1,
-            cutout: '80%',  // Ajusta este valor para cambiar el grosor de la gráfica
-            plugins: {
-                legend: {
-                    position: 'left',  // Posición de la leyenda
-                    labels: {
-                        color: 'white',  // Color de las letras
-                        padding: 35  // Espacio entre la gráfica y la leyenda
-                        
-                    }
-                }
-            }
+        height: '40%'  // Aumenta el porcentaje para hacer la gráfica más grande
+    },
+    title: {
+        text: '',
+        style: {
+            color: '#ffffff',
         }
-    });
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
+        style: {
+            color: 'black',
+        }
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: false,
+            },
+            showInLegend: true,
+            innerSize: '80%',  
+            borderColor: null 
+        }
+    },
+    legend: {
+        itemStyle: {
+            color: '#ffffff',
+        },
+        align: 'left',  // Alinea la leyenda a la izquierda
+        verticalAlign: 'middle',  // Alinea la leyenda verticalmente al medio
+        layout: 'vertical'  // Coloca la leyenda verticalmente
+    },
+    series: [{
+        name: 'Población',
+        colorByPoint: true,
+        data: [{
+            name: 'Hombres',
+            y: 285,
+            color: 'rgba(255, 165, 0, 0.5)'
+        }, {
+            name: 'Mujeres',
+            y: 125,
+            color: 'rgba(255, 255, 255, 0.5)'
+        }]
+    }]
+});
+
+
+
+
 </script>
         <script>
             Highcharts.chart('graficaPoblacion', {

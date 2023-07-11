@@ -46,7 +46,7 @@
 	                            <a title="Actividades" href="#" class="mainNavItem">Gobierno Digital</a>
 	                        </li>
 	                        <li id="navTab05">
-	                            <a title="Solicitud" href="#" class="mainNavItem">Estadísticas BC</a>
+								<a title="Solicitud" href="estadistica_bc.php" class="mainNavItem">Estadísticas BC</a>
 	                        </li>
 	                        <li id="navTab06">
 	                            <a title="Buzon" href="#" class="mainNavItem">Datos Abiertos</a>
