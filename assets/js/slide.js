@@ -11,16 +11,5 @@ $(document).ready(function() {
         margin: 10,
         loop: true,
         autoWidth: true,
-        // responsive: {
-        //     0: {
-        //         item: 1
-        //     },
-        //     600: {
-        //         item: 4,
-        //     },
-        //     1000: {
-        //         item: 4,
-        //     }
-        // }
     });
 });

@@ -12,6 +12,21 @@
 	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/Style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.index.css">
+	<!-- Font Awesome -->
+	<link
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+	  rel="stylesheet"
+	/>
+	<!-- Google Fonts -->
+	<link
+	  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+	  rel="stylesheet"
+	/>
+	<!-- MDB -->
+	<link
+	  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+	  rel="stylesheet"
+	/>
 </head>
 <body>
 	<div class="header-background">
@@ -20,11 +35,11 @@
 	            <div class="ic-container-fluid">
 	                <div id="logo" title="Clic para regresar a la página de inicio">
 	                    <p class="defaultLogo">
-	                        <a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+	                        <a href="index.php"><img class="imgNavBar" style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
 	                    </p>
 	                </div>
 	                <div class="contactoSoporte">
-	                    <a class="LinkNav" title="Contacto" href="index.php">Contacto y Soporte</a>
+	                    <a class="LinkNav" title="Contacto" href="contacto.php">Contacto y Soporte</a>
 	                </div>
 	            </div>
 	        </div>
@@ -55,25 +70,20 @@
 	                </nav>
 	            </div>
 	        </div>
-	        <!--header-bottom-->
 	    </header>
 	</div>
 
 	<div class="pnlImagen">
-		<div class="row d-flex">
-			<div class="col-md-12 col-lg-12">
-				<img class="imgEncabezado" src="assets/img/011.png" alt="IMG-ENGOBIERNO">
-			</div>
-		</div>
+		<img class="imgEncabezado" src="assets/img/011.png" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//
 		//SECCIÓN ENCABEZADO
 		//
 	-->
-	<div class="container">
+	<div class="EncabezadoGobierno">
 		<div class="col-md-12 col-lg-12">
-			<div class="center">
+			<div class="centrar">
 				<div class="ContenidoTexto">
 					<label class="ContenidoTitulo">Gobierno Abierto BC</label>
 					<label class="ContenidoSubTitulo">Gobierno Abierto es aquel que prioriza la transparencia, estableciendo una comunicación constante con la ciudadanía para comprender sus necesidades y tomar decisiones conjuntas. En este enfoque, valoramos la participación activa de la ciudadanía, buscando construir puentes de confianza y trabajar juntos hacia un futuro más justo y próspero.</label>
@@ -83,10 +93,193 @@
 	</div>
 	<!--
 		//
-		//SECCIÓN 
+		//SECCIÓN NUESTROS PILARES
 		//
 	-->
 	
+	<div class="pnlPilares">
+		<div class="col-md-12 col-lg-12">
+			<div class="center" style="padding-top: 2%;">
+				<dt class="etiquetaConocenos">NUESTROS PILARES</dt>
+				<dt class="subetiqueta">Al unir nuestras fuerzas, podemos lograr cambios significativos y duraderos</dt>
+				<div class="line"></div>
+			</div>
+			<div class="iconPilares">
+				<div class="row d-flex quitarJustificado">
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/search1.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Transparencia y acceso a la información</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/accurate.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Rendición de cuentas</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/team.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Participación ciudadana</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/fingerprint1.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Innovación a través de las tecnologías</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--
+		//
+		//SECCIÓN PARTICIPA
+		//
+	-->
+	
+	<div class="pnlParticipa">
+		<div class="col-md-12 col-lg-12">
+			<div class="centrar" style="padding-top: 2%;">
+				<div>
+					<label class="participaTitulo">PARTICIPA</label>
+				</div>
+				<div>
+					<label class="participaSubTitulo">Este espacio es para ti que deseas aportar junto con el gobierno a la construcción de un mejor país. Únete a esta misión por el fortalecimiento de la democracia, la transparencia y la innovación. ¡Participa!".Deja tu opinión, comparte tus dudas y propuestas, participa con tus comentarios y debate con otros sobre los temas que te interesan.</label>
+				</div>
+			</div>
+			<div class="pnlTabla">
+				<div class="activosOrdenar">
+					<div id="cambiartamano" class="col-md-8 col-lg-8">
+						<div class="posicionar">
+							<div class="switch-button dividir left-checkbox">
+								<input class="switch-button_checkbox" type="checkbox" name="switch-button" id="switch-label" data-on="Enabled" data-off="Disabled" >
+								<label class="switch-button_label" for="switch-label"></label>
+								<strong class="texto_button_checkbox">Mostrar temas activos</strong>
+							</div>
+							<div class="dividir right-fecha">
+								<label>Ordenar por</label>
+								<input class="" type="date" name="OrdenarPorFecha" value="Fecha de inicio">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contenidoTabla">
+					<div class="position-relative">
+						<table class="table">
+							<tbody>
+								<tr>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay1.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay2.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay3.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay4.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay5.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+									<td class="columns">
+										<div class="card" style="width: 26rem;">
+										  	<img src="assets/img/Overlay6.png" class="card-img-top" alt="IMG-PARTICIPA">
+										  	<div class="card-body">
+										  		<label class="card-fecha">HASTA: 11 Ago / DESDE: 14 Feb</label>
+										    	<h5 class="card-title">Deja tus dudas sobre el pago de Ingreso Solidario Etapa IV</h5>
+										    	<p class="card-text">¿No sabes cómo acceder a este subsidio? ¿No te ha llegado alguno de los giros? ¿No sabes cómo cobrar si no tienes una cuenta bancaria? ¿Cuándo comienza y cuándo finaliza la etapa ...</p>
+										  	</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="contenidoPaginado">
+					<div id="cambiarpaginado" class="col-md-8 col-lg-8">
+						<div class="posicionar">
+							<div class="dividirPaginado left-checkbox">
+								<label>Mostrar</label>
+								<select class="caja-mostrar">
+									<option>20</option>
+									<option>50</option>
+									<option>100</option>
+									<option>Todos</option>
+								</select>
+							</div>
+							<div class="dividirPaginado centrar">
+								<label>Página</label>
+								<input class="caja-pagina" type="text" name="Pagina" value="1">
+							</div>
+							<div class="dividirPaginado right-fecha">
+								<div class="paginacion">
+									<!-- <a href="#">&laquo;</a> -->
+									<a class="anterior" href="#">&lt;</a>
+									<a href="#">1</a>
+  									<a href="#" class="activo">2</a>
+  									<a href="#">3</a>
+  									<a href="#">4</a>
+  									<a href="#">5</a>
+  									<a class="disabled" href="#">...</a>
+  									<a href="#">10</a>
+  									<a class="siguiente" href="#">&gt;</a>
+									<!-- <a href="#">&raquo;</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<footer class="page-footer font-small text-center" style="display: flex;">
 	    <div class="footer-line-yellow"></div>
@@ -147,6 +340,56 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/slide.js"></script>
+	<!-- MDB -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+	<script type="text/javascript">
+		$(".switch-button").find("input[type=checkbox]").on("change",function() {
+      		// let checked = $(this).prop('checked');
+      		// let on = $(this).data('on');
+      		// let off = $(this).data('off');
+      		// console.log(checked);
+      		// if (checked == true) {
+      		// 	console.log(on);	
+      		// }else {
+      		// 	console.log(off);
+      		// }
+      		
+		    // de aca en adelante haces lo necesario con el codigo 
+		    /*
+		    $.ajax({
+		        url: 'http://localhost/conexion/controllers/HomeClass.php/updatestate',
+		        type: 'POST',
+		        data: {'id': id, 'checked' : checked}
+		    })
+		    .done(function(resp) {          
+		        console.log(resp);
+		    })
+		    .fail(function() {
+		        console.log("error");
+		    });
+		    */      
+		});
+
+		window.onload = function() {
+			console.log(window);
+			console.log(window.innerWidth);
+		   	if(window.innerWidth<1010){
+		    	var ordenar = document.getElementById("cambiartamano");
+		    	ordenar.classList.remove("col-md-8");
+		    	ordenar.classList.remove("col-lg-8");
+		    	ordenar.classList.add("col-md-12");
+		    	ordenar.classList.add("col-lg-12");
+		   } 
+		};
+		window.onload = function() {
+			if (window.innerWidth<1010) {
+				var pagination = document.getElementById("cambiarpaginado");
+				pagination.classList.remove("col-md-8");
+		    	pagination.classList.remove("col-lg-8");
+		    	pagination.classList.add("col-md-12");
+		    	pagination.classList.add("col-lg-12");
+			}
+		}
+	</script>
 </body>
 </html>
