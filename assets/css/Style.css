@@ -10637,3 +10637,8 @@ iframe[data-product="web_widget"], #launcher {
     padding: 30px;
     height: 200px;
 }
+
+.padding20 {
+    padding: 20px 0;
+}
+

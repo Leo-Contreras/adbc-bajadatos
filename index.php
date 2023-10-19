@@ -6,7 +6,8 @@
 	<title>Baja Datos</title>
 	<link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin="anonymous">
 	<link href="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-6VTsNhIHFxNglfMLfhvvJFxXZbdvT1UXhm7+wVMAda9c+2NIFu4zmlKKz/bJthi/" crossorigin="anonymous">
-	
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
 	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -18,6 +19,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 	<!-- MDB -->
 	<link href="assets/css/mdb.min.css" rel="stylesheet"/>
+
+	
+	
 </head>
 <body>
 	<div class="header-background">
@@ -55,6 +59,10 @@
 				        		<li id="navTab03">
 				        		  	<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
+								<li id="navTab04">
+				        		  	<a class="mainNavItem" href="participacionciudadana.php">Participación Ciudadana</a>
+				        		</li>
+								<!--
 				        		<li id="navTab04">
 				        		  	<a class="mainNavItem" href="gobiernodigital.php">Gobierno Digital</a>
 				        		</li>
@@ -64,6 +72,7 @@
 				        		<li id="navTab06">
 				          			<a class="mainNavItem" href="datosabiertos.php">Datos Abiertos</a>
 				        		</li>
+								-->
 				      		</ul>
 				      	<!-- Left links -->
 				    	</div>
@@ -74,6 +83,8 @@
 	        </div>
 	    </header>
 	</div>
+
+	
 	<!--
 		//
 		//SECCIÓN ENCABEZADO
@@ -88,6 +99,76 @@
 				</div>
 				<div class="col-md-6 col-lg-6 encabezadoImagen">
 					<img src="assets/img/header_gobierno.png" alt="IMG-ENCABEZADO">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 
+		SECCION IMAGENES 
+
+	-->
+	<!-- SECCION IMAGENES -->
+
+	<div  class="container ">
+		<div id="pnlEncabezadoContenidoRow" class="row d-flex pnlEncabezado">
+			<div class="row-md-12 row-lg-12">
+				<div class="col-md-8 col-lg-8 ">
+					<img class="img-fluid" src="https://via.placeholder.com/640x480" alt="Imagen Grande">
+				</div>
+				<div class="col-md-3 col-lg-3 encabezadoImagen flex-column justify-content-between">
+					<img class="img-fluid mb-2" src="https://via.placeholder.com/200x150" alt="Imagen 1">
+					<img class="img-fluid mb-2" src="https://via.placeholder.com/200x150" alt="Imagen 2">
+					<img class="img-fluid" src="https://via.placeholder.com/200x150" alt="Imagen 3">
+				</div>
+			</div>
+		</div>
+	</div>
+		
+
+	<!--
+		//
+		//SECCIÓN NUESTROS PILARES
+		//
+	-->
+	
+	<div class="pnlPilares">
+		<div class="col-md-12 col-lg-12">
+			<div class="center" style="padding-top: 2%;">
+				<dt class="etiquetaConocenos">NUESTROS PILARES</dt>
+				<dt class="subetiqueta">Al unir nuestras fuerzas, podemos lograr cambios significativos y duraderos</dt>
+				<div class="line"></div>
+			</div>
+			<div class="iconPilares">
+				<div class="row d-flex quitarJustificado">
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/search1.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Transparencia y acceso a la información</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/accurate.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Rendición de cuentas</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/team.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Participación ciudadana</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 widthPilares">
+						<div class="paddingIcons">
+							<img class="imgPilares" src="assets/img/fingerprint1.png" alt="IMG-PILARES" width="100">
+							<div class="linePilares"></div>
+							<p class="TextoPilares">Innovación a través de las tecnologías</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -177,6 +258,29 @@
 			</div>
 		</div>
 	</div>
+
+<!--
+		//
+		//SECCIÓN PILARES
+		//
+	-->
+
+	
+
+	<div id="main" class="container pnlMain">
+		<div id="pnlEncabezadoContenidoRow" class="row d-flex pnlEncabezado">
+			<div class="col-md-12 col-lg-12">
+				<div class="col-md-6 col-lg-6 encabezadoTexto">
+					<label class="pnlTitulo">Gobierno Abierto BC</label>
+					<label class="pnlSubTitulo">Para consultar las Obligaciones de Transparencia, conforme a la Ley de transparencia Acceso a la Información Pública del Estado de Baja California.</label>
+				</div>
+				<div class="col-md-6 col-lg-6 encabezadoImagen">
+					<img src="assets/img/header_gobierno.png" alt="IMG-ENCABEZADO">
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!--
 		//
 		//SECCIÓN INFORMACIÓN DE INTERÉS
