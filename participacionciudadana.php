@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Participacion ciudadana - Gobierno Abierto</title>
+	<link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-6VTsNhIHFxNglfMLfhvvJFxXZbdvT1UXhm7+wVMAda9c+2NIFu4zmlKKz/bJthi/" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<!-- Google Fonts -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/Style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.index.css">
+
+</head>
+<body>
+
+
+	<div class="header-background">
+			<header class="nocontent">
+				<div id="header-mid">
+					<div class="ic-container-fluid">
+						<div id="logo" title="Clic para regresar a la página de inicio">
+							<p class="defaultLogo">
+								<a href="index.php"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+							</p>
+						</div>
+						<div class="contactoSoporte">
+						<h1>GOBIERNO ABIERTO</h1>
+						</div>
+					</div>
+				</div>
+				<div class="">
+					<nav class="navbar navbar-expand-lg" style="background: #6a1c32;">
+						<!-- Container wrapper -->
+						<div class="container-fluid ">
+							<!-- Toggle button -->
+							<button class="navbar-toggler"type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff; padding: 16px 0;">
+								<i class="fas fa-bars"></i>
+							</button>
+							<!-- Collapsible wrapper -->
+							<div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+								<!-- Left links -->
+								<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
+									<li id="navTab01">
+										<a class="mainNavItem activeSelected" href="index.php">INICIO</a>
+									</li>
+									<li id="navTab02">
+										<a class="mainNavItem" href="gobiernoabierto.php">GOBIERNO ABIERTO</a>
+									</li>
+									<li id="navTab03">
+										<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
+									</li>
+									<li id="navTab04">
+										<a class="mainNavItem" href="participacionciudadana.php">Participación Ciudadana</a>
+									</li>
+									<!--
+									<li id="navTab04">
+										<a class="mainNavItem" href="gobiernodigital.php">Gobierno Digital</a>
+									</li>
+									<li id="navTab05">
+										<a class="mainNavItem" href="estadisticasbc.php">Estadísticas BC</a>
+									</li>
+									<li id="navTab06">
+										<a class="mainNavItem" href="datosabiertos.php">Datos Abiertos</a>
+									</li>
+									-->
+								</ul>
+							<!-- Left links -->
+							</div>
+						<!-- Collapsible wrapper -->
+						</div>
+					<!-- Container wrapper -->
+					</nav>
+				</div>
+			</header>
+		</div>
+
+
+
+
+
+
+
+	<div class="pnlImagen">
+		<img class="imgEncabezado" src="assets/img/021.png" alt="IMG-ENGOBIERNO">
+	</div>
+	<!--
+		//
+		//SECCIÓN ENCABEZADO
+		//
+	-->
+	<div class="EncabezadoGobierno">
+		<div class="col-md-12 col-lg-12">
+			<div class="centrar">
+				<div class="ContenidoTexto">
+					<label class="ContenidoTitulo">Participación ciudadana
+                    </label>
+					<label class="ContenidoSubTitulo">La transparencia proactiva implica compartir información adicional de manera voluntaria, más allá de lo requerido por la ley, para satisfacer las necesidades específicas de ciertos grupos o sectores. Es una forma de generar conocimiento útil y accesible para el público en general.</label>
+				</div>
+			</div>
+		</div>
+        
+	</div>
+	<!--
+		//
+		//SECCIÓN INFORMACIÓN FRECUENTE
+		//
+	-->
+	<div class="pnlTarjetas">
+		<div class="col-md-12 ">
+			<div class="center">
+				<dt class="etiquetaConocenos"></dt>
+			</div>
+			<div id="news-slider" class="owl-carousel">
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Tarjeta_Violeta/IMG_6987_2.jpg" alt="">
+                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            Tarjeta Violeta
+                        </h3>
+                        <p class="post-description">Priorizamos la transparencia, estableciendo una comunicación constante con la ciudadañia.</p>
+                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Centros.jpg" alt="">
+                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            Centros de Atención Ciudadana
+                        </h3>
+                        <p class="post-description">Compartimos información adicional de manera voluntaria, más allá de lo requerido por la ley.</p>
+                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Pancita.jpg" alt="">
+                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+							Pancita Llena , Corazón contento 
+                        </h3>
+                        <p class="post-description">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea.</p>
+                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            Estadísticas BC
+                        </h3>
+                        <p class="post-description">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave.</p>
+                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            Datos abiertos
+                        </h3>
+                        <p class="post-description">Sección para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</p>
+                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                    </div>
+                </div>
+                
+			</div>
+		</div>
+
+		<div class="col-md-8">
+			<div class="modal fade" id="emailModal" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Enviar Correo</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<!-- Aquí puedes colocar el formulario de correo -->
+					<form id="emailForm">
+						
+						<div class="mb-3">
+							<label for="emailSubject" class="form-label">Asunto:</label>
+							<input type="text" class="form-control" id="emailSubject" placeholder="Asunto del correo" required>
+						</div>
+						<div class="mb-3">
+							<label for="emailMessage" class="form-label">Mensaje:</label>
+							<textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+						</div>
+					</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="post-content">
+			<!-- ... -->
+			<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#emailModal">
+				<i class="fas fa-envelope"></i>
+			</button>
+			</div>
+
+
+		</div>
+	</div>
+        <!-- <div class="pnlInformacionFrecuente">
+        <div class="col-md-12 col-lg-12">
+            <div class="center" style="padding-top: 2%;">
+                <dt class="etiquetaInformacionFrecuente">Temas a participar</dt>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6" style="padding: 0.5rem;">
+                    <div class="card card-equal-height">
+                            <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Tarjeta_Violeta/IMG_6987_2.jpg" class="card-img-top" alt="Tarjeta Violeta">
+                            <div class="card-body">
+                                <h5 class="card-title">Tarjeta Violeta</h5>
+                                <p class="card-text">Apoyo económico de $2600 pesos bimestrales para contribuir a mejorar los ingresos de mujeres jefas de familia de entre 18 a 64 años que viven en situación de vulnerabilidad.</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" style="padding: 0.5rem;">
+                    <div class="card card-equal-height">
+                            <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Centros.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Centros de Atención</h5>
+                                <p class="card-text">Apoyo para el mantenimiento, servicios y equipamientos de los centros comunitarios inscritos a la secretaría de bienestar.</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" style="padding: 0.5rem;">
+                    <div class="card card-equal-height">
+                            <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Pancita.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pancita llena corazón contento</h5>
+                                <p class="card-text">Brinda acceso a los alimentos nutritivos para las niñas, niños y adolescentes en las escuelas públicas</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+		
+		<!-- Modal -->
+
+	
+
+
+
+
+	<footer class="page-footer font-small text-center" style="display: flex;">
+	    <div class="footer-line-yellow"></div>
+	    <div class="row" style="background-color:#762d41; width: 100%;">
+	        <div class="col-md-3 px-5" style="border-right:2px solid #bd945c;  margin-top:3rem!important; margin-bottom:3rem!important">
+	            <div class="visible-lg visible-md ">
+	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="assets/img/escudo-baja-california.png">
+	            </div>
+	            <div class="visible-sm visible-xs text-center">
+	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="assets/img/escudo-baja-california.png">
+	            </div>
+	        </div>
+	        <div class="col-md-9 px-5">
+	            <div class="row footer-enlaces" style="margin-top:25px!important;">
+	                <div class="col-md-5">
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/Actividades"> Datos Abiertos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">Datos Abiertos de Mexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#">DataMexico</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SolicitudInformacion">Principios - International Open Data Charter</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/SitiosInteres">Conferencia Nacional de Datos Abiertos Mexico</a></li>
+						</ul>                              
+	                </div>
+	                <div class="col-md-4">
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Diagnosticos</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Instituto Nacional de Estadistica y Geografia (INEGI)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Indice de Desarrollo Digital Estatal (IDDE) 2022</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Metrica Gobierno Abierto 2021</a></li>
+						</ul>
+	                </div>
+					<div class="col-md-3">
+						<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Alianza Para el gobierno abierto (OGP)</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Cocreacion desde lo local</a></li>
+						</ul>
+						<br>
+						<ul>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Participacion Ciudadana</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Codeando</a></li>
+							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> SocialTIC</a></li>
+						</ul>
+					</div>
+	            </div>   
+	        </div>
+	        <div class="row">
+	            <div class="col-md-12">
+	                <p style="color:#ffffff;  font-size:13px; margin-top:10px;">© Gobierno del Estado de Baja California 2022 - Bajadatos </p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="pie-guinda"></div>
+	</footer>
+	<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/slide.js"></script>
+	<!-- MDB -->
+	<script
+	  type="text/javascript"
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+	></script>
+	<!-- Bootstrap JS -->
+
+
+</body>
+</html>

@@ -157,7 +157,7 @@
 			</div>
 			<div class="pnlTabla">
 				<div class="activosOrdenar">
-					<div id="cambiartamano" class="col-md-8 col-lg-8">
+					<div id="cambiartamano" class="">
 						<div class="posicionar">
 							<div class="switch-button dividir left-checkbox">
 								<input class="switch-button_checkbox" type="checkbox" name="switch-button" id="switch-label" data-on="Enabled" data-off="Disabled" >

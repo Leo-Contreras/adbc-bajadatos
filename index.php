@@ -34,7 +34,7 @@
 	                    </p>
 	                </div>
 	                <div class="contactoSoporte">
-	                    <a class="LinkNav" title="Contacto" href="contacto.php">Contacto y Soporte</a>
+	                  <h1>GOBIERNO ABIERTO</h1>
 	                </div>
 	            </div>
 	        </div>
@@ -89,7 +89,7 @@
 		//
 		//SECCIÓN ENCABEZADO
 		//
-	-->
+	
 	<div id="main" class="container pnlMain">
 		<div id="pnlEncabezadoContenidoRow" class="row d-flex pnlEncabezado">
 			<div class="col-md-12 col-lg-12">
@@ -103,28 +103,65 @@
 			</div>
 		</div>
 	</div>
-
+-->
 	<!-- 
 		SECCION IMAGENES 
 
 	-->
 	<!-- SECCION IMAGENES -->
 
-	<div  class="container ">
-		<div id="pnlEncabezadoContenidoRow" class="row d-flex pnlEncabezado">
-			<div class="row-md-12 row-lg-12">
-				<div class="col-md-8 col-lg-8 ">
-					<img class="img-fluid" src="https://via.placeholder.com/640x480" alt="Imagen Grande">
+	
+		<div class="column-12 column-sm-12 tab" style="margin-top: 200px;">
+
+			<div class="custom-row">
+				<!-- Columna grande a la izquierda -->
+				<div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab" style="height: 500px;">
+					<div class="effect grid-width8 effect-two">
+						<img src="http://54.177.219.224/assets/img/convenio.jpg" class="img-fluid">
+						<div class="tab-text">
+							<h2>FIRMA DE CONVENIO DE COLABORACION CON AGENCIA DIGITAL CDMX</h2>
+							<p class="icon-links"><a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-youtube-square"></i></a></p>
+							<p class="description col6">El director de Agencia Digital de Baja California, Ing. Gabriel Palombo, puntualizó que “En el Gobierno de Baja California, a través de la Agencia Digital estamos promoviendo la innovación disruptiva, mediante el aprovechamiento de las tecnologías de la información y comunicaciones que nos ayuden a acelerar procesos con el fin de generar una interacción de los ciudadanos con las dependencias de una manera más fácil, eficiente, de calidad y calidez, Poniendo El Corazón Por Delante”.</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-3 col-lg-3 encabezadoImagen flex-column justify-content-between">
-					<img class="img-fluid mb-2" src="https://via.placeholder.com/200x150" alt="Imagen 1">
-					<img class="img-fluid mb-2" src="https://via.placeholder.com/200x150" alt="Imagen 2">
-					<img class="img-fluid" src="https://via.placeholder.com/200x150" alt="Imagen 3">
+				<!-- Columna con 3 imágenes a la derecha -->
+				<div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab" style="height: 500px;">
+					<div class="effect effect-two" style="height: 33%;">
+						<img src="http://54.177.219.224/assets/img/actividades/forodatosabierto.jpg" class="img-fluid">
+						<div class="tab-text">
+							<h2>REGISTRO ESTATAL DE TRÁMITES Y SERVICIOS</h2>
+							<!-- iconos y texto aquí -->
+						</div>
+					</div>
+					<div class="effect effect-two" style="height: 33%;">
+						<img src="./assets/img/convenio.png" class="img-fluid">
+						<div class="tab-text">
+							<h4>LIDER MUNDIAL EN GOBIERNO DIGITAL SE REUNE CON DIRECTIVOS DE LA AGENCIA DIGITAL DE BAJA CALIFORNIA</h4>
+							<!-- iconos y texto aquí -->
+						</div>
+					</div>
+					<div class="effect effect-two" style="height: 33%;">
+						<img src="http://54.177.219.224/assets/img/actividades/capacitacion.jpg" class="img-fluid">
+						<div class="tab-text">
+							<h4>AMAZON WEB SERVICES IMPARTE SEMINARIO "TRANSFORMACIÓN DIGITAL PARA EL GOBIERNO DE BAJA CALIFORNIA"</h4>
+							<!-- iconos y texto aquí -->
+						</div>
+					</div>
 				</div>
-			</div>
+				</div>
+				<div class="custom-row" style="display: grid; place-items: center;">
+ 
+				<div class="container" style="margin: auto;">
+							<p>Note Importante</p>
+							<label class="pnlNoticiasTitulo">REGISTRO ESTATAL DE TRÁMITES Y SERVICIOS</label>
+							<label class="pnlNoticiasSubTitulo">Siguiendo las instrucciones de la Gobernadora Marina del Pilar Avila Olmeda de mejorar y brindar un servicio de calidad para las y los bajacalifornianos, la Agencia Digital de Baja California, continúa con los trabajos en la capacitación para la actualización del Registro Estatal de Trámites y Servicios, herramienta que interoperara con el catálogo nacional, en virtud de que la información y documentación de los trámites y servicios, son el principal instrumento de intercambio de información entre el gobierno y los ciudadanos, lo que facilita la realización y cumplimiento de sus derechos y obligaciones, brinda seguridad jurídica, da transparencia y fomenta el uso de las tecnologías de la información (TIC).</label>
+						</div>
+						</div>
+			
 		</div>
-	</div>
 		
+
 
 	<!--
 		//
@@ -173,6 +210,9 @@
 			</div>
 		</div>
 	</div>
+
+
+
 	<!--
 		//
 		//SECCIÓN CONÓCENOS
@@ -259,12 +299,13 @@
 		</div>
 	</div>
 
+	
+
+
 <!--
 		//
 		//SECCIÓN PILARES
-		//
-	-->
-
+		
 	
 
 	<div id="main" class="container pnlMain">
@@ -280,7 +321,7 @@
 			</div>
 		</div>
 	</div>
-
+	-->
 	<!--
 		//
 		//SECCIÓN INFORMACIÓN DE INTERÉS
