@@ -12,7 +12,7 @@ body {
     /*padding-top:70px;*/
     font-weight: normal !important;
     font-size: 16px!important;
-    background-color: #f2f2f2;
+  /*  background-color: #f2f2f2; */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -40,6 +40,7 @@ body {
     position: relative;
     text-align: center;
     font-weight: 500;
+   
 }
 .cerrar-aviso {
     display: block;
@@ -52,6 +53,30 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.centrado {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contacto-footer {
+    text-align: left;
+    font-size: 0.8em; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .contacto-footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+.container-footer {
+    justify-content: space-around;
+ }
 .cerrar-aviso:hover {
     cursor: pointer;
 }
@@ -569,7 +594,7 @@ a.mainNavItem {
 #mainNav .dropdown li a {
     display: inline-block;
     width: 100%;
-    color: #285d9a;
+   
     font-size: 14px;
     font-weight: 400;
     padding: 10px 0;
@@ -580,7 +605,7 @@ a.mainNavItem {
 #mainNav .dropdownSmall li a {
     display: inline-block;
     width: 100%;
-    color: #285d9a;
+  
     font-size: 14px;
     font-weight: 400;
     padding: 10px 0;
@@ -1263,6 +1288,15 @@ h1 {
     /*text-transform: uppercase !important;*/
     font-size: 1.5em !important;
 }
+
+.articulo-header {
+        color: #6a1c32 !important;
+        font-weight: 800 !important;
+        text-transform: uppercase !important;
+        font-size: 4.5em !important;
+    
+}
+
 h2 {
     /*color: #434343 !important;*/
     font-weight: 600 !important;
@@ -1932,7 +1966,7 @@ CAROUCEL
     color: #6a1c32 !important;
 }
 p {
-    color: #606060;
+  
     line-height: 1.8;
     font-weight: normal;
 }
@@ -2171,7 +2205,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #f2f2f2 !important;
+
 }
 input, button, select, textarea {
     font-family: inherit;
@@ -5513,15 +5547,13 @@ button.close {
 a {
     font-weight: 700;
     text-decoration: none;
-    color: #285d9a
+   
 }
 a:focus, a:hover {
     text-decoration: underline;
-    color: #285d9a
+    color: #b17a45
 }
-a:visited {
-    color: #285d9a
-}
+
 b, strong {
     font-family: inherit;
     font-weight: 700
@@ -5624,9 +5656,7 @@ a:active {
         text-decoration: underline
     }
 }
-p {
-    margin: 15px 0
-}
+
 #printArea ul, #printArea ol {
     margin: 10px 0 10px 30px;
     padding: 0
@@ -5697,6 +5727,11 @@ hr {
     background-color: #f0f0f0;
     margin: 20px 0
 }
+.custom-card {
+    border: 3px solid #ffd699 !important; /* Color dorado (#b17a45) y grosor del borde de 2px */
+    box-shadow: none !important; /* Elimina el sombreado por defecto */
+  }
+  
 footer a[href^=tel] {
     color: #cecece
 }
@@ -6442,15 +6477,14 @@ footer {
     position: relative
 }
 footer a {
-    color: #285d9a;
+   color: white !important;
     text-decoration: none
 }
 footer a:hover {
+    color: #b17a45 !important;
     text-decoration: inherit
 }
-footer a[href^=tel] {
-    color: #285d9a
-}
+
 .footerTop {
     padding: 20px 0;
     width: 100%;
@@ -6806,7 +6840,6 @@ footer a[href^=tel] {
 }
 .footerNav a, .footerNav a:link, .footerNav a:visited {
     display: inline-block;
-    color: #285d9a;
     font-size: .88235rem;
     font-weight: 700;
     text-decoration: none;
@@ -7226,7 +7259,7 @@ footer a[href^=tel] {
     display: block;
     padding: 25px 30px 15px 0;
     margin-top: 20px;
-    color: #285d9a;
+    
     background: url(../images/structure/subnav-open.svg) top 30px right 16px no-repeat;
     background-size: 17px 17px
 }
@@ -7238,11 +7271,11 @@ footer a[href^=tel] {
     background-size: 17px 17px
 }
 #subNavWrapper .showAllWrapper a {
-    color: #285d9a;
+   
     background-color: white!important
 }
 #subNavWrapper .showAllWrapper a span {
-    color: #285d9a;
+
     font-weight: 700
 }
 #subNavWrapper .showAllWrapper a:focus span, #subNavWrapper .showAllWrapper a:hover span {
@@ -7271,7 +7304,7 @@ footer a[href^=tel] {
     font-weight: 700;
     display: block;
     padding-right: 45px;
-    color: #285d9a
+    
 }
 #subNavWrapper .subNav a:focus, #subNavWrapper .subNav a:hover {
     text-decoration: none;
@@ -7714,19 +7747,8 @@ footer a[href^=tel] {
 #bylawparser .bootstrap .bylawContainer .panel.panel-default .panel-heading>.row .col-sm-2 {
     width: auto
 }
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #fff!important;
-    border-radius: .25rem;
-}
+
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -10968,11 +10990,52 @@ body {
 	margin-right: auto
 }
 
+.timeline-container {
+    position: relative;
+    max-width: 600px; /* Ajusta esto según tus necesidades */
+    margin: auto;
+}
+
+.timeline-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer; /* Cambia el cursor para indicar que el bloque es interactivo */
+    transition: transform 0.3s; /* Animación para el efecto de hover */
+}
+
+.timeline-block:hover {
+    transform: scale(1.05); /* Escala el bloque cuando el mouse está sobre él */
+}
+
+.timeline-dot {
+    height: 20px;
+    width: 20px;
+    background-color: #6A1C32; /* Color del punto */
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.timeline-content {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .timeline-content {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
 .tab .effect {
 	position: relative;
 	overflow: hidden;
 
-	background: #3085a3;
+	background: #6a1c32;
 	text-align: center;
 	cursor: pointer
 }
@@ -12746,6 +12809,22 @@ body {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   }
   
+  .golden-border {
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+    padding: 1rem;
+  }
+  .cherry-block {
+    background-color: maroon; /* Guinda color */
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    display: inline-block; /* To keep the block width according to content */
+  }
+  
+
   
   .navbar-brand {
     font-size: 4rem; /* Aumenta el tamaño del logo */
@@ -12774,3 +12853,23 @@ body {
   .nav-link:hover::before {
     width: 100%; /* Longitud completa al hacer hover */
   }
+
+  .card-header {
+    background-color: #6a1c32;
+
+  }
+
+  .card-beneficios {
+    border: 4px solid #6a1c32 !important; /* Código de color hexadecimal para guinda */
+
+  }
+
+/* Estilo para la sección con fondo de imagen */
+ .seccion-con-fondo {
+    background-image: url('assets/img/fondopatrones.jpg'); /* Ruta de la imagen */
+    background-repeat: repeat; /* Configuración para repetir la imagen */
+    /* Otros estilos opcionales según tus preferencias */
+  }
+
+
+  

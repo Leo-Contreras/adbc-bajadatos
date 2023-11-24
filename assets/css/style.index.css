@@ -431,9 +431,7 @@ input.image_buscar {
     left: 50%;
     margin-top: 10px;
 }
-body {
-    background-color: #f1f6ff;
-}
+
 #news-slider {
     margin-top: 10px;
 }
@@ -724,18 +722,26 @@ body {
 .imgEncabezado {
     width: 100%;
 }
+
+.bg-guinda {
+    background-color: #6a1c32;
+    color: white; /* Puedes ajustar el color del texto según tus preferencias */
+}
+
 .EncabezadoGobierno {
-    padding: 3%;
+    padding-top: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .ContenidoTexto {
     text-align: center;
 }
 .ContenidoTitulo {
-    color: #6a1c32;
+    color: #b17a45;
     font-family: Montserrat;
     font-weight: 800;
     letter-spacing: -1.5px;
-    font-size: 76px;
+    font-size: 50px;
 }
 .ContenidoSubTitulo {
     color: #1B1B1B;
@@ -744,8 +750,8 @@ body {
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.15px;
-    text-align: center;
-    max-width: 980px;
+    text-align: justify;
+
 }
 .pnlPilares {
     padding: 9%;
@@ -937,7 +943,7 @@ body {
     flex: 0 0 350px;
     height: 350px;
     margin: 0 10px;
-    background-color: #f0f0f0;
+ 
 }
 .contenidoCarouselInformacionF {
     margin: auto;
@@ -1013,7 +1019,7 @@ body {
 .my-card {
     border-radius: 16px;
     background: #6A1C32;
-    color: white;
+
 }
 .btn-custom {
     border-radius: 4px;
@@ -1093,6 +1099,24 @@ body {
 .center {
     text-align: center;
 }
+
+.golden-border {
+    border-top: 3px solid #b17a45;
+    border-bottom: 3px solid #b17a45;
+    padding: 1rem;
+  }
+  .cherry-block {
+    background-color: #6A1C32; /* Guinda color */
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    display: inline-block; /* To keep the block width according to content */
+  }
+
+  
+  
 .carousel-indicators {
     /*    position: absolute;*/
     bottom: -32px;
@@ -1105,18 +1129,7 @@ body {
     list-style: none;
     background: transparent;
 }
-.carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #000\9;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
-    border-radius: 10px
-}
+
 .carousel-indicators .active {
     width: 8px;
     height: 8px;
@@ -1128,3 +1141,16 @@ body {
         bottom: -50px
     }
 }
+
+.bg-gold {
+    background-color: #b17a45;
+  }
+
+.bg-3f3f3d {
+    background-color: #3f3f3d;
+}
+
+.bg-6a1c32 {
+    background-color: #6A1C32;
+}
+

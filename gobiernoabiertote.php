@@ -29,17 +29,18 @@
 	/>
 </head>
 <body>
-	<div class="header-background">
+
+<div class="header-background">
 	    <header class="nocontent">
 	        <div id="header-mid">
 	            <div class="ic-container-fluid">
 	                <div id="logo" title="Clic para regresar a la página de inicio">
 	                    <p class="defaultLogo">
-	                        <a href="index.php"><img class="imgNavBar" style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+	                        <a href="index.php"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
 	                    </p>
 	                </div>
 	                <div class="contactoSoporte">
-	                    <a class="LinkNav" title="Contacto" href="contacto.php">Contacto y Soporte</a>
+	                  <h1>GOBIERNO ABIERTO</h1>
 	                </div>
 	            </div>
 	        </div>
@@ -56,7 +57,7 @@
 				      		<!-- Left links -->
 				      		<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
 				        		<li id="navTab01">
-				        		  	<a class="mainNavItem" href="index.php">INICIO</a>
+				        		  	<a class="mainNavItem activeSelected" href="index.php">INICIO</a>
 				        		</li>
 				        		<li id="navTab02">
 				        		  	<a class="mainNavItem" href="gobiernoabierto.php">GOBIERNO ABIERTO</a>
@@ -64,8 +65,12 @@
 				        		<li id="navTab03">
 				        		  	<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
+								<li id="navTab04">
+									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
+				        		</li>
+								<!--
 				        		<li id="navTab04">
-				        		  	<a class="mainNavItem activeSelected" href="gobiernodigital.php">Gobierno Digital</a>
+				        		  	<a class="mainNavItem" href="gobiernodigital.php">Gobierno Digital</a>
 				        		</li>
 				        		<li id="navTab05">
 				        		  	<a class="mainNavItem" href="estadisticasbc.php">Estadísticas BC</a>
@@ -73,7 +78,7 @@
 				        		<li id="navTab06">
 				          			<a class="mainNavItem" href="datosabiertos.php">Datos Abiertos</a>
 				        		</li>
-
+								-->
 				      		</ul>
 				      	<!-- Left links -->
 				    	</div>
@@ -84,8 +89,10 @@
 	        </div>
 	    </header>
 	</div>
-	<div class="pnlImagen">
-		<img class="imgEncabezado" src="assets/img/031.png" alt="IMG-ENGOBIERNO">
+
+
+    <div class="pnlImagen">
+		<img class="imgEncabezado" src="assets/img/011.png" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//
@@ -93,26 +100,101 @@
 		//
 	-->
 	<div class="EncabezadoGobierno">
-		<div class="col-md-12 col-lg-12">
 			<div class="centrar">
 				<div class="ContenidoTexto">
-					<div>
-						<label class="ContenidoTitulo">Gobierno Digital</label>
-					</div>
-					<div>
-						<label class="ContenidoSubTitulo">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea y presenciales en un sólo lugar.</label>
-					</div>
+					<label class="ContenidoTitulo">Gobierno Abierto BC</label>
+					<br>
+					<label class="ContenidoSubTitulo">Gobierno Abierto es aquel que prioriza la transparencia, estableciendo una comunicación constante con la ciudadanía para comprender sus necesidades y tomar decisiones conjuntas. En este enfoque, valoramos la participación activa de la ciudadanía, buscando construir puentes de confianza y trabajar juntos hacia un futuro más justo y próspero.</label>
 				</div>
 			</div>
-		</div>
+	
 	</div>
 	<!--
 		//
-		//SECCIÓN
+		//SECCIÓN NUESTROS PILARES
 		//
 	-->
+	
 
-	<?php include './footer.php'; ?> <!-- Inclusión del archivo footer.php -->
+	 
+
+    <?php
+		$enlaces = [
+			[
+				'titulo' => 'BAJA CALIFORNIA',
+				'items' => [
+					['texto' => 'Mexicali', 'url' => 'https://www.mexicali.gob.mx/'],
+					['texto' => 'Tijuana', 'url' => 'https://www.tijuana.gob.mx/'],
+					['texto' => 'Ensenada', 'url' => 'http://www.ensenada.gob.mx/'],
+					['texto' => 'Rosarito', 'url' => 'http://www.rosarito.gob.mx/'],
+					['texto' => 'Tecate', 'url' => 'https://tecate.gob.mx/'],
+				],
+			],
+			[
+				'titulo' => 'ENLACES',
+				'items' => [
+					['texto' => 'Estadisticas e indicadores', 'url' => 'http://www.monitorbc.gob.mx/'],
+					['texto' => 'Compras,Proveedores y Licitaciones', 'url' => 'https://tramites.ebajacalifornia.gob.mx/Compras/'],
+					['texto' => 'Impuestos federales', 'url' => 'https://www.sat.gob.mx/'],
+					['texto' => 'Acerca del Portal', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Acerca'],
+					['texto' => 'Trámites y Servicios en Línea', 'url' => 'http://retys.bajacalifornia.gob.mx/Portal/TySEnLinea'],
+				],
+			],
+			[
+				'titulo' => 'CONTACTO',
+				'items' => [
+					['texto' => 'Oficinas de Gobierno', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Oficinas'],
+					['texto' => 'Directorio de Funcionarios', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Directorio_Funcionarios'],
+					['texto' => 'Cajeros electrónicos', 'url' => 'http://appsweb.ebajacalifornia.gob.mx/SIFOS/Kiosko/'],
+					['texto' => 'Preguntas frecuentes', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/FAQ'],
+					['texto' => 'Transparencia B.C.', 'url' => 'http://www.transparenciabc.gob.mx/'],
+				],
+			],
+		];
+		?>
+
+		<footer>
+			<div class="container-fluid ">
+				<div class="container container-footer bg-3f3f3d text-white pt-4 pb-4">
+					<div class="row pt-4">
+						<div class="col-xs-12 col-sm-3 mb-4 mb-sm-0 text-center">
+							<a href="https://www.bajacalifornia.gob.mx/">
+								<img src="../assets/img/bc_blanco.png" alt="Logo" style="width: 100%; max-width: 150px;" />
+							</a>
+						</div>
+						<?php foreach ($enlaces as $columna): ?>
+							<div class="col-xs-12 col-sm-3 mb-3 mb-sm-0">
+								<h4 class="mb-3"><strong><?= $columna['titulo'] ?></strong></h4>
+								<div style="height: 2px; background-color: rgb(177,122,69); width: 10%; margin-bottom: 5px;"></div> <!-- Línea dorada -->
+								<ul class="list-unstyled">
+									<?php foreach ($columna['items'] as $item): ?>
+										<li class="mb-1">
+											<a href="<?= $item['url'] ?>" class="text-decoration-none enlaces-footer larger-text" target="_blank" rel="noopener noreferrer">
+												<?= $item['texto'] ?>
+											</a>
+										</li>
+									<?php endforeach; ?>
+								</ul>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid bg-gold" style="height: 4px;"></div> <!-- Contenedor dorado -->
+
+			<div class="container-fluid bg-6a1c32 py-3 pt-4 text-white">
+				<div class="container text-center">
+					<p class="font-weight-bold small-text mb-0 pfooter">
+						Copyright © 2023 Portal de Gobierno de Baja California | Agencia Digital | Politicas de Privacidad y Seguridad
+						última fecha de actualización del día 24 de Agosto del 2023
+					</p>
+				</div>
+			</div>
+		</footer>
+
+
+
 
 	<!-- <footer class="page-footer font-small text-center" style="display: flex;">
 	    <div class="footer-line-yellow"></div>
@@ -145,7 +227,7 @@
 						</ul>
 	                </div>
 					<div class="col-md-3">
-						 <div class="txtb text-center">Gobierno Abierto:</div>
+						<div class="txtb text-center">Gobierno Abierto:</div> 
 						<ul>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
@@ -167,6 +249,7 @@
 	            </div>
 	        </div>
 	    </div>
+		
 	    <div id="pie-guinda"></div>
 	</footer> -->
 	<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
@@ -175,5 +258,22 @@
 	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
 	<!-- MDB -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+	<script type="text/javascript">
+		const prevButton = document.querySelector('.prev-button');
+		const nextButton = document.querySelector('.next-button');
+		const cardContainer = document.querySelector('.carouselInformacionF-container');
+
+		prevButton.addEventListener('click', scrollCards.bind(null, 'left'));
+		nextButton.addEventListener('click', scrollCards.bind(null, 'right'));
+
+		function scrollCards(direction) {
+		  const scrollAmount = direction === 'left' ? -200 : 200;
+		  cardContainer.scrollBy({
+		    top: 0,
+		    left: scrollAmount,
+		    behavior: 'smooth'
+		  });
+		}
+	</script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 	<title>Baja Datos</title>
 	<link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin="anonymous">
 	<link href="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-6VTsNhIHFxNglfMLfhvvJFxXZbdvT1UXhm7+wVMAda9c+2NIFu4zmlKKz/bJthi/" crossorigin="anonymous">
-	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
     
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
@@ -19,10 +19,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 	<!-- MDB -->
 	<link href="assets/css/mdb.min.css" rel="stylesheet"/>
-
-	
-	
 </head>
+
 <body>
 	<div class="header-background">
 	    <header class="nocontent">
@@ -50,17 +48,15 @@
 				    	<div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
 				      		<!-- Left links -->
 				      		<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
-				        		<li id="navTab01">
-				        		  	<a class="mainNavItem activeSelected" href="index.php">INICIO</a>
+							  <li id="navTab01">
+				        		  	<a class="mainNavItem " href="index.php">Gobierno Abierto</a>
 				        		</li>
-				        		<li id="navTab02">
-				        		  	<a class="mainNavItem" href="gobiernoabierto.php">GOBIERNO ABIERTO</a>
-				        		</li>
+				        		
 				        		<li id="navTab03">
-				        		  	<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
+				        		  	<a class="mainNavItem activeSelected" href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
 								<li id="navTab04">
-				        		  	<a class="mainNavItem" href="participacionciudadana.php">Participación Ciudadana</a>
+									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
 				        		</li>
 								<!--
 				        		<li id="navTab04">
@@ -84,6 +80,35 @@
 	    </header>
 	</div>
 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--
+	<div class="pnlImagen">
+		<img class="imgEncabezado" src="assets/img/011.png" alt="IMG-ENGOBIERNO">
+	</div>
+	
+		//
+		//SECCIÓN ENCABEZADO
+		//
+
+	<div class="EncabezadoGobierno">
+		
+			<div class="centrar">
+				<div class="ContenidoTexto">
+					<label class="ContenidoTitulo">Gobierno Abierto BC</label>
+					<br>
+					<label class="ContenidoSubTitulo">Gobierno Abierto es aquel que prioriza la transparencia, estableciendo una comunicación constante con la ciudadanía para comprender sus necesidades y tomar decisiones conjuntas. En este enfoque, valoramos la participación activa de la ciudadanía, buscando construir puentes de confianza y trabajar juntos hacia un futuro más justo y próspero.</label>
+				</div>
+			</div>
+		
+	</div>
+	-->
 	
 	<!--
 		//
@@ -111,57 +136,64 @@
 	<!-- SECCION IMAGENES -->
 
 	
-		<div class="column-12 column-sm-12 tab" style="margin-top: 200px;">
+		<div class="column-12 column-sm-12 tab" >
 
-			<div class="custom-row">
+			<div class="container">
+
+				<div class="col-md-6">
+					<h5 class="ContenidoTitulo">GOBIERNO ABIERTO BC</h5>	
+				</div>
+				<div class="col-md-6">
+				 <img style="height: 400px;:" class="pd-4" src="https://s3-alpha-sig.figma.com/img/929c/a884/613b1b016c9a279dea618a400713a6f0?Expires=1701043200&Signature=DFVONXUTiUbLgx4uUlyGN4HY8WvFCtmbuSGznoxvpA0Nh2xbnb0xpVR4Uses2Ud4n37A8ogKt0DHiB9JWgvO~ycSCKNUiHYBIWXSaXLzbbfnkid0nOs37PaVsdgWxUKA6Vtl3n~FD7NcyaNEXElabRnZ3FpzVka7EAHjI9sKcISYdDBGn1xb-XBQu-RRinvJoh4VxEkMwImjXH~-YWVPd8QtcBbWDp2FfRMVXHD0b9qvwCUAQASOQGiEIkPXzjdFGFzx7iAWKB0d8v3J7UhGdYapu2PS9cAxSyWlncCEZFd2ZG0pRZGMIR5kZlRHUexTnrcB7BOtZ6fJW4bGIyJTSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="gobierno abierto persona">
+				</div>
+
+			</div>
+
+				<div class="custom-row">
 				<!-- Columna grande a la izquierda -->
-				<div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab" style="height: 500px;">
+				<div class="col-md-7 col-xs-12 box-tab" style="height: 500px;">
 					<div class="effect grid-width8 effect-two">
-						<img src="http://54.177.219.224/assets/img/convenio.jpg" class="img-fluid">
-						<div class="tab-text">
-							<h2>FIRMA DE CONVENIO DE COLABORACION CON AGENCIA DIGITAL CDMX</h2>
-							<p class="icon-links"><a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-youtube-square"></i></a></p>
-							<p class="description col6">El director de Agencia Digital de Baja California, Ing. Gabriel Palombo, puntualizó que “En el Gobierno de Baja California, a través de la Agencia Digital estamos promoviendo la innovación disruptiva, mediante el aprovechamiento de las tecnologías de la información y comunicaciones que nos ayuden a acelerar procesos con el fin de generar una interacción de los ciudadanos con las dependencias de una manera más fácil, eficiente, de calidad y calidez, Poniendo El Corazón Por Delante”.</p>
-						</div>
+						<a href="https://micrositios.inai.org.mx/gobiernoabierto/" target="_blank">
+							<img src="./assets/img/inai.png" class="img-fluid">
+						</a>
 					</div>
 				</div>
 				<!-- Columna con 3 imágenes a la derecha -->
-				<div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab" style="height: 500px;">
+				<div class="col-md-5 col-xs-12 box-tab hide-xs hide-sm hide-md" style="height: 500px;">
 					<div class="effect effect-two" style="height: 33%;">
-						<img src="http://54.177.219.224/assets/img/actividades/forodatosabierto.jpg" class="img-fluid">
-						<div class="tab-text">
-							<h2>REGISTRO ESTATAL DE TRÁMITES Y SERVICIOS</h2>
-							<!-- iconos y texto aquí -->
-						</div>
+						<a href="https://www.itaipbc.org.mx/itaipBC-2019/" target="_blank">
+							<img src="./assets/img/ITAIP.png" class="img-fluid">
+						</a>
 					</div>
 					<div class="effect effect-two" style="height: 33%;">
-						<img src="./assets/img/convenio.png" class="img-fluid">
-						<div class="tab-text">
-							<h4>LIDER MUNDIAL EN GOBIERNO DIGITAL SE REUNE CON DIRECTIVOS DE LA AGENCIA DIGITAL DE BAJA CALIFORNIA</h4>
-							<!-- iconos y texto aquí -->
-						</div>
+						<a href="https://www.plataformadetransparencia.org.mx/" target="_blank">
+							<img src="./assets/img/transparencia.jpg" class="img-fluid">
+						</a>
 					</div>
 					<div class="effect effect-two" style="height: 33%;">
-						<img src="http://54.177.219.224/assets/img/actividades/capacitacion.jpg" class="img-fluid">
-						<div class="tab-text">
-							<h4>AMAZON WEB SERVICES IMPARTE SEMINARIO "TRANSFORMACIÓN DIGITAL PARA EL GOBIERNO DE BAJA CALIFORNIA"</h4>
-							<!-- iconos y texto aquí -->
-						</div>
+						<a href="https://www.economia.gob.mx/datamexico/es/explore?q=baja%20california" target="_blank">
+							<img src="./assets/img/datos.svg" class="img-fluid">
+						</a>
 					</div>
 				</div>
-				</div>
-				<div class="custom-row" style="display: grid; place-items: center;">
+			</div>
+
+
+				<div class="custom-row" style="display: grid; place-items: center; padding-top: 5%;">
  
-				<div class="container" style="margin: auto;">
-							<p>Note Importante</p>
-							<label class="pnlNoticiasTitulo">REGISTRO ESTATAL DE TRÁMITES Y SERVICIOS</label>
-							<label class="pnlNoticiasSubTitulo">Siguiendo las instrucciones de la Gobernadora Marina del Pilar Avila Olmeda de mejorar y brindar un servicio de calidad para las y los bajacalifornianos, la Agencia Digital de Baja California, continúa con los trabajos en la capacitación para la actualización del Registro Estatal de Trámites y Servicios, herramienta que interoperara con el catálogo nacional, en virtud de que la información y documentación de los trámites y servicios, son el principal instrumento de intercambio de información entre el gobierno y los ciudadanos, lo que facilita la realización y cumplimiento de sus derechos y obligaciones, brinda seguridad jurídica, da transparencia y fomenta el uso de las tecnologías de la información (TIC).</label>
-						</div>
-						</div>
+					<div class="container pb-4" style="margin: auto;">
+								
+					<label class="ContenidoTitulo ">¿Qué es Gobierno Abierto?</label>
+					<label class="pnlNoticiasSubTitulo">es una estrategia innovadora en el que se entabla una constante conversación con la ciudadanía utilizando las tecnologías de comunicación para conectar a la sociedad bajacaliforniana con el Estado, con la finalidad de tener instituciones más eficientes, democráticas y más sólidas, a través de la apertura gubernamental.</label>
+					
+				</div>
+				</div>
 			
 		</div>
 		
 
+
+		
 
 	<!--
 		//
@@ -170,14 +202,14 @@
 	-->
 	
 	<div class="pnlPilares">
-		<div class="col-md-12 col-lg-12">
-			<div class="center" style="padding-top: 2%;">
+		<div class="col-md-12 col-lg-12 ">
+			<div class="center" style="padding-top: 10%;">
 				<dt class="etiquetaConocenos">NUESTROS PILARES</dt>
 				<dt class="subetiqueta">Al unir nuestras fuerzas, podemos lograr cambios significativos y duraderos</dt>
 				<div class="line"></div>
 			</div>
 			<div class="iconPilares">
-				<div class="row d-flex quitarJustificado">
+				<div class="row d-flex  ">
 					<div class="col-md-3 col-lg-3 widthPilares">
 						<div class="paddingIcons">
 							<img class="imgPilares" src="assets/img/search1.png" alt="IMG-PILARES" width="100">
@@ -211,6 +243,33 @@
 		</div>
 	</div>
 
+	<!-- MAPAS INTERACTIVOS -->
+
+		<!--
+		//
+		//SECCIÓN MAPAS
+		//
+	-->
+
+	<div class="container">
+		<!--
+		<div class="col-md-12 col-lg-12">
+			<div class="center" style="padding-top: 2%;">
+				<dt class="etiquetaConocenos">MAPAS</dt>
+				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
+				<div class="line"></div>
+			</div>
+
+		<div style="padding: 100px; "> 
+				 <iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe> 
+				 
+		
+		</div> 
+		</div>
+		-->
+	</div>
+
+
 
 
 	<!--
@@ -218,7 +277,7 @@
 		//SECCIÓN CONÓCENOS
 		//
 	-->
-	<div class="pnlTarjetas">
+	<!-- <div class="pnlTarjetas">
 		<div class="col-md-12 col-lg-12">
 			<div class="center">
 				<dt class="etiquetaConocenos">CONÓCENOS</dt>
@@ -227,77 +286,77 @@
                 <div class="post-slide">
                     <div class="post-img">
                         <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                     
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
                             Gobierno Abierto BC
                         </h3>
                         <p class="post-description">Priorizamos la transparencia, estableciendo una comunicación constante con la ciudadañia.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                  
                         <a href="#" class="read-more">NONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
                     <div class="post-img">
                         <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                       
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
                             Transparencia proactiva
                         </h3>
                         <p class="post-description">Compartimos información adicional de manera voluntaria, más allá de lo requerido por la ley.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                       
                         <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
                     <div class="post-img">
                         <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
                             Gobierno Digital
                         </h3>
                         <p class="post-description">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                       
                         <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
                     <div class="post-img">
                         <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                      
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
                             Estadísticas BC
                         </h3>
                         <p class="post-description">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                      
                         <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 <div class="post-slide">
                     <div class="post-img">
                         <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+              
                     </div>
                     <div class="post-content">
                         <h3 class="post-title">
                             Datos abiertos
                         </h3>
                         <p class="post-description">Sección para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
+                    
                         <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
                 </div>
                 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	
 
@@ -328,6 +387,7 @@
 		//
 	-->
 	<div class="pnlIntereses">
+		<!--
 		<div class="col-md-12 col-lg-12">
 			<div class="center" style="padding-top: 2%;">
 				<dt class="etiquetaConocenos">INFORMACIÓN DE INTERÉS</dt>
@@ -410,17 +470,18 @@
 				      		</div>
 				    	</div>
 				  	</div>
-				  	<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide="prev">
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide="prev">
 				    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				    	<span class="visually-hidden">Previous</span>
 				  	</button>
 				  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide="next">
 				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    	<span class="visually-hidden">Next</span>
-				  	</button> -->
+				  	</button> 
 				</div>
 			</div>
 		</div>
+		-->
 	</div>
 	<!--
 		//
@@ -428,6 +489,7 @@
 		//
 	-->
 	<div class="pnlNoticiasBC">
+		<!--
 		<div class="col-md-12 col-lg-12">
 			<div class="center" style="padding-top: 2%;">
 				<dt class="etiquetaConocenos">NOTICIAS BC</dt>
@@ -591,13 +653,16 @@
 				</div>
 			</div>
 		</div>
+		-->
 	</div>
+
 	<!--
 		//
 		//SECCIÓN SUSCRIBETE
 		//
 	-->
 	<div class="pnlSuscribete">
+		<!--
 		<div class="col-md-12 col-lg-12">
 			<div class="pnlSuscribeteContenido">
 				<dt class="encabezadoSuscribete">Suscríbete para recibir noticias</dt>
@@ -610,25 +675,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!--
-		//
-		//SECCIÓN MAPAS
-		//
-	-->
-	<div class="pnlMapas">
-		<div class="col-md-12 col-lg-12">
-			<div class="center" style="padding-top: 2%;">
-				<dt class="etiquetaConocenos">MAPAS</dt>
-				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
-				<div class="line"></div>
-			</div>
-			<!-- <div style="padding: 100px; "> -->
-				<!-- <iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe> -->
-			<!-- </div> -->
-		</div>
+		-->
 	</div>
 
+
+	<?php include './footer.php'; ?> <!-- Inclusión del archivo footer.php -->
+  
+
+<!--
 	<footer class="page-footer font-small text-center" style="display: flex;">
 	    <div class="footer-line-yellow"></div>
 	    <div class="row" style="background-color:#762d41; width: 100%;">
@@ -660,7 +714,7 @@
 						</ul>
 	                </div>
 					<div class="col-md-3">
-						<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
+					
 						<ul>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
@@ -683,7 +737,8 @@
 	        </div>
 	    </div>
 	    <div id="pie-guinda"></div>
-	</footer>
+	</footer>-->
+
 	<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

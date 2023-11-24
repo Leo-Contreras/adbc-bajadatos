@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<!-- Google Fonts -->
 
-	<link rel="stylesheet" type="text/css" href="assets/css/Style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.index.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/Style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.index.css">
 
 </head>
 <body>
@@ -28,7 +28,7 @@
 					<div class="ic-container-fluid">
 						<div id="logo" title="Clic para regresar a la página de inicio">
 							<p class="defaultLogo">
-								<a href="index.php"><img style="max-width:345px; outline:none!important" class="" src="assets/img/Agencia_Digital.png" alt="Logo BC"></a>
+								<a href="index.php"><img style="max-width:345px; outline:none!important" class="" src="../assets/img/Agencia_Digital.png" alt="Logo BC"></a>
 							</p>
 						</div>
 						<div class="contactoSoporte">
@@ -49,16 +49,13 @@
 								<!-- Left links -->
 								<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
 									<li id="navTab01">
-										<a class="mainNavItem activeSelected" href="index.php">INICIO</a>
-									</li>
-									<li id="navTab02">
-										<a class="mainNavItem" href="gobiernoabierto.php">GOBIERNO ABIERTO</a>
+										<a class="mainNavItem " href="../index.php">Gobierno Abierto</a>
 									</li>
 									<li id="navTab03">
-										<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
+										<a class="mainNavItem" href="../transparenciaproactiva.php">Transparencia Proactiva</a>
 									</li>
 									<li id="navTab04">
-										<a class="mainNavItem" href="participacionciudadana.php">Participación Ciudadana</a>
+										<a class="mainNavItem activeSelected" href="./">Participación Ciudadana</a>
 									</li>
 									<!--
 									<li id="navTab04">
@@ -82,14 +79,8 @@
 			</header>
 		</div>
 
-
-
-
-
-
-
 	<div class="pnlImagen">
-		<img class="imgEncabezado" src="assets/img/021.png" alt="IMG-ENGOBIERNO">
+		<img class="imgEncabezado" src="../assets/img/021.png" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//
@@ -102,6 +93,7 @@
 				<div class="ContenidoTexto">
 					<label class="ContenidoTitulo">Participación ciudadana
                     </label>
+					<br>
 					<label class="ContenidoSubTitulo">La transparencia proactiva implica compartir información adicional de manera voluntaria, más allá de lo requerido por la ley, para satisfacer las necesidades específicas de ciertos grupos o sectores. Es una forma de generar conocimiento útil y accesible para el público en general.</label>
 				</div>
 			</div>
@@ -114,12 +106,13 @@
 		//
 	-->
 	<div class="pnlTarjetas">
-		<div class="col-md-12 ">
+		<div class="container ">
 			<div class="center">
 				<dt class="etiquetaConocenos"></dt>
 			</div>
 			<div id="news-slider" class="owl-carousel">
                 <div class="post-slide">
+			
                     <div class="post-img">
                         <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Tarjeta_Violeta/IMG_6987_2.jpg" alt="">
                         <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
@@ -130,65 +123,11 @@
                         </h3>
                         <p class="post-description">Priorizamos la transparencia, estableciendo una comunicación constante con la ciudadañia.</p>
                         <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
+                        <a href="./articulos/tarjetavioleta.php" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
                     </div>
+					
                 </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Centros.jpg" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Centros de Atención Ciudadana
-                        </h3>
-                        <p class="post-description">Compartimos información adicional de manera voluntaria, más allá de lo requerido por la ley.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://www.bajacalifornia.gob.mx/Recursos/Imagenes/Bienestar/Pancita.jpg" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-							Pancita Llena , Corazón contento 
-                        </h3>
-                        <p class="post-description">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Estadísticas BC
-                        </h3>
-                        <p class="post-description">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Datos abiertos
-                        </h3>
-                        <p class="post-description">Sección para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</p>
-                        <!-- <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span> -->
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
+               
                 
 			</div>
 		</div>
@@ -279,18 +218,100 @@
 
 	
 
+		<?php
+$enlaces = [
+    [
+        'titulo' => 'BAJA CALIFORNIA',
+        'items' => [
+            ['texto' => 'Mexicali', 'url' => 'https://www.mexicali.gob.mx/'],
+            ['texto' => 'Tijuana', 'url' => 'https://www.tijuana.gob.mx/'],
+            ['texto' => 'Ensenada', 'url' => 'http://www.ensenada.gob.mx/'],
+            ['texto' => 'Rosarito', 'url' => 'http://www.rosarito.gob.mx/'],
+            ['texto' => 'Tecate', 'url' => 'https://tecate.gob.mx/'],
+        ],
+    ],
+    [
+        'titulo' => 'ENLACES',
+        'items' => [
+            ['texto' => 'Estadisticas e indicadores', 'url' => 'http://www.monitorbc.gob.mx/'],
+            ['texto' => 'Compras,Proveedores y Licitaciones', 'url' => 'https://tramites.ebajacalifornia.gob.mx/Compras/'],
+            ['texto' => 'Impuestos federales', 'url' => 'https://www.sat.gob.mx/'],
+            ['texto' => 'Acerca del Portal', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Acerca'],
+            ['texto' => 'Trámites y Servicios en Línea', 'url' => 'http://retys.bajacalifornia.gob.mx/Portal/TySEnLinea'],
+        ],
+    ],
+    [
+        'titulo' => 'CONTACTO',
+        'items' => [
+            ['texto' => 'Oficinas de Gobierno', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Oficinas'],
+            ['texto' => 'Directorio de Funcionarios', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/Directorio_Funcionarios'],
+            ['texto' => 'Cajeros electrónicos', 'url' => 'http://appsweb.ebajacalifornia.gob.mx/SIFOS/Kiosko/'],
+            ['texto' => 'Preguntas frecuentes', 'url' => 'https://bajacalifornia.gob.mx/Gobierno/FAQ'],
+            ['texto' => 'Transparencia B.C.', 'url' => 'http://www.transparenciabc.gob.mx/'],
+        ],
+    ],
+];
+?>
 
+<footer>
+    <div class="container-fluid bg-3f3f3d text-white pt-4 pb-4">
+        <div class="container container-footer">
+            <div class="row pt-4 ">
+                <div class="col-xs-12 col-sm-3 mb-4 mb-sm-0 text-center">
+                    <a href="https://www.bajacalifornia.gob.mx/">
+                        <img src="https://www.bajacalifornia.gob.mx/Recursos/logo/escudo-baja-california.png" alt="Logo" style="width: 100%; max-width: 150px;" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-3 mb-4 mb-sm-0 ">
+                        <p> <strong>Ubicaciones:</strong></p>
+                        <p> Mexicali: C. José María Morelos 221, Primera, 21100 Mexicali, B.C.</p>
+                        <p>Tijuana: Av. Revolución 868-Suite C, Centro, 22000 Tijuana, B.C.</p>
+                        <p> <strong>Correo Institucional:</strong> contactogobiernoabierto@baja.gob.mx </p>
+                       
+                      
+                  
+                    </div>
+                <?php foreach ($enlaces as $columna): ?>
+                    <div class="col-xs-12 col-sm-2 mb-3 mb-sm-0">
+                        <h4 class="mb-3"><strong><?= $columna['titulo'] ?></strong></h4>
+                        <div style="height: 2px; background-color: rgb(177,122,69); width: 10%; margin-bottom: 5px;"></div> <!-- Línea dorada -->
+                        <ul class="list-unstyled">
+                            <?php foreach ($columna['items'] as $item): ?>
+                                <li class="mb-1">
+                                    <a href="<?= $item['url'] ?>" class="text-decoration-none enlaces-footer larger-text" target="_blank" rel="noopener noreferrer">
+                                        <?= $item['texto'] ?>
+                                    </a>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                <?php endforeach; ?>
+             
+            </div>
+        </div>
+    </div>
 
+    <div class="container-fluid bg-gold" style="height: 4px;"></div> <!-- Contenedor dorado -->
 
-	<footer class="page-footer font-small text-center" style="display: flex;">
+    <div class="container-fluid bg-6a1c32 py-3 pt-4 text-white">
+        <div class="container text-center">
+            <p class="font-weight-bold small-text mb-0 pfooter">
+                Copyright © 2023 Portal de Gobierno de Baja California | Agencia Digital | Politicas de Privacidad y Seguridad
+                última fecha de actualización del día 24 de Agosto del 2023
+            </p>
+        </div>
+    </div>
+</footer>
+		
+	<!-- <footer class="page-footer font-small text-center" style="display: flex;">
 	    <div class="footer-line-yellow"></div>
 	    <div class="row" style="background-color:#762d41; width: 100%;">
 	        <div class="col-md-3 px-5" style="border-right:2px solid #bd945c;  margin-top:3rem!important; margin-bottom:3rem!important">
 	            <div class="visible-lg visible-md ">
-	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="assets/img/escudo-baja-california.png">
+	                <img style="width:240px;" alt="Logo de Baja California" class="mt-3" src="../assets/img/escudo-baja-california.png">
 	            </div>
 	            <div class="visible-sm visible-xs text-center">
-	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="assets/img/escudo-baja-california.png">
+	                <img alt="Logo de Baja California" class="mt-3" style="width:30%" src="../assets/img/escudo-baja-california.png">
 	            </div>
 	        </div>
 	        <div class="col-md-9 px-5">
@@ -313,7 +334,7 @@
 						</ul>
 	                </div>
 					<div class="col-md-3">
-						<!-- <div class="txtb text-center">Gobierno Abierto:</div> -->
+						<div class="txtb text-center">Gobierno Abierto:</div> 
 						<ul>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Gobierno Abierto</a></li>
 							<li><a href="http://portalqa.bajacalifornia.gob.mx/bajadatos/#"> Transparencia Proactiva</a></li>
@@ -336,12 +357,13 @@
 	        </div>
 	    </div>
 	    <div id="pie-guinda"></div>
-	</footer>
+	</footer> -->
+	<script src="integrarBlogs.js"></script>
 	<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/slide.js"></script>
+	<script type="text/javascript" src="../assets/js/slide.js"></script>
 	<!-- MDB -->
 	<script
 	  type="text/javascript"
