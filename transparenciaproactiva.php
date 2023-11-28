@@ -511,13 +511,15 @@ $enlaces = [
     <div class="container-fluid bg-gold" style="height: 4px;"></div> <!-- Contenedor dorado -->
 
     <div class="container-fluid bg-6a1c32 py-3 pt-4 text-white">
-        <div class="container text-center">
-            <p class="font-weight-bold small-text mb-0 pfooter">
-                Copyright © 2023 Portal de Gobierno de Baja California | Agencia Digital | Politicas de Privacidad y Seguridad
-                última fecha de actualización del día 24 de Agosto del 2023
-            </p>
-        </div>
+    <div class="container text-center">
+        <p class="font-weight-bold small-text mb-0 pfooter">
+            Copyright © 2023 Portal de Gobierno de Baja California | 
+            <a href="avisoprivacidad.pdf" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Aviso de Privacidad</a> |
+            Agencia Digital | Políticas de Privacidad y Seguridad
+            última fecha de actualización del día 24 de Agosto del 2023
+        </p>
     </div>
+</div>
 </footer>
 
 

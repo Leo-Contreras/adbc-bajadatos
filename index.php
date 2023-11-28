@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+	
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,11 +50,11 @@
 				      		<!-- Left links -->
 				      		<ul id="nav" class="sf-js-enabled" style="padding: 16px 0;">
 							  <li id="navTab01">
-				        		  	<a class="mainNavItem " href="index.php">Gobierno Abierto</a>
+				        		  	<a class="mainNavItem activeSelected" href="index.php">Gobierno Abierto</a>
 				        		</li>
 				        		
 				        		<li id="navTab03">
-				        		  	<a class="mainNavItem activeSelected" href="transparenciaproactiva.php">Transparencia Proactiva</a>
+				        		  	<a class="mainNavItem " href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
 								<li id="navTab04">
 									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
@@ -140,43 +141,47 @@
 
 			<div class="container">
 
-				<div class="col-md-6">
-					<h5 class="ContenidoTitulo">GOBIERNO ABIERTO BC</h5>	
+				<div class="col-md-7">
+					<h5 class="TitutloHeader">GOBIERNO ABIERTO BC</h5>	
+					<div class="SubtituloHeader">Para consultar las Obligaciones de Transparencia, conforme a la Ley de transparencia Acceso a la Información Pública del Estado de Baja California</div>
 				</div>
-				<div class="col-md-6">
-				 <img style="height: 400px;:" class="pd-4" src="https://s3-alpha-sig.figma.com/img/929c/a884/613b1b016c9a279dea618a400713a6f0?Expires=1701043200&Signature=DFVONXUTiUbLgx4uUlyGN4HY8WvFCtmbuSGznoxvpA0Nh2xbnb0xpVR4Uses2Ud4n37A8ogKt0DHiB9JWgvO~ycSCKNUiHYBIWXSaXLzbbfnkid0nOs37PaVsdgWxUKA6Vtl3n~FD7NcyaNEXElabRnZ3FpzVka7EAHjI9sKcISYdDBGn1xb-XBQu-RRinvJoh4VxEkMwImjXH~-YWVPd8QtcBbWDp2FfRMVXHD0b9qvwCUAQASOQGiEIkPXzjdFGFzx7iAWKB0d8v3J7UhGdYapu2PS9cAxSyWlncCEZFd2ZG0pRZGMIR5kZlRHUexTnrcB7BOtZ6fJW4bGIyJTSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="gobierno abierto persona">
+				<div class="col-md-5">
+				 <img style="height: 400px;:" class="pd-4" src="./assets/img/header_gobierno.png" alt="gobierno abierto persona">
 				</div>
 
 			</div>
 
+			<div class="container">
 				<div class="custom-row">
-				<!-- Columna grande a la izquierda -->
-				<div class="col-md-7 col-xs-12 box-tab" style="height: 500px;">
-					<div class="effect grid-width8 effect-two">
-						<a href="https://micrositios.inai.org.mx/gobiernoabierto/" target="_blank">
-							<img src="./assets/img/inai.png" class="img-fluid">
-						</a>
+					<!-- Columna grande a la izquierda -->
+					<div class="col-md-8 col-xs-12 box-tab" style="height: 500px;">
+						<div class="effect grid-width8 effect-two">
+							<a href="https://micrositios.inai.org.mx/gobiernoabierto/" target="_blank">
+								<img src="./assets/img/inai.png" class="img-fluid">
+							</a>
+						</div>
 					</div>
-				</div>
-				<!-- Columna con 3 imágenes a la derecha -->
-				<div class="col-md-5 col-xs-12 box-tab hide-xs hide-sm hide-md" style="height: 500px;">
-					<div class="effect effect-two" style="height: 33%;">
-						<a href="https://www.itaipbc.org.mx/itaipBC-2019/" target="_blank">
-							<img src="./assets/img/ITAIP.png" class="img-fluid">
-						</a>
-					</div>
-					<div class="effect effect-two" style="height: 33%;">
-						<a href="https://www.plataformadetransparencia.org.mx/" target="_blank">
-							<img src="./assets/img/transparencia.jpg" class="img-fluid">
-						</a>
-					</div>
-					<div class="effect effect-two" style="height: 33%;">
-						<a href="https://www.economia.gob.mx/datamexico/es/explore?q=baja%20california" target="_blank">
-							<img src="./assets/img/datos.svg" class="img-fluid">
-						</a>
+					<!-- Columna con 3 imágenes a la derecha -->
+					<div class="col-md-4 col-xs-12 box-tab hide-xs hide-sm hide-md" style="height: 500px;">
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.itaipbc.org.mx/itaipBC-2019/" target="_blank">
+								<img src="./assets/img/ITAIP.png" class="img-fluid">
+							</a>
+						</div>
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.plataformadetransparencia.org.mx/" target="_blank">
+								<img src="./assets/img/transparencia.jpg" class="img-fluid">
+							</a>
+						</div>
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.economia.gob.mx/datamexico/es/explore?q=baja%20california" target="_blank">
+								<img src="./assets/img/datos.svg" class="img-fluid">
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
+				
 
 
 				<div class="custom-row" style="display: grid; place-items: center; padding-top: 5%;">
@@ -201,7 +206,7 @@
 		//
 	-->
 	
-	<div class="pnlPilares">
+	<div class="container">
 		<div class="col-md-12 col-lg-12 ">
 			<div class="center" style="padding-top: 10%;">
 				<dt class="etiquetaConocenos">NUESTROS PILARES</dt>
@@ -251,432 +256,42 @@
 		//
 	-->
 
-	<div class="container">
-		<!--
+	
+		
 		<div class="col-md-12 col-lg-12">
 			<div class="center" style="padding-top: 2%;">
 				<dt class="etiquetaConocenos">MAPAS</dt>
 				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
 				<div class="line"></div>
-			</div>
-
+			
+		</div>
+<!--
 		<div style="padding: 100px; "> 
 				 <iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe> 
-				 
+-->				 
 		
 		</div> 
+		<div class="container"><iframe src="http://transparenciapresupuestaria.gob.mx/es/PTP/mapa_ucef#Ciclo=2022&amp;ID_ENTIDAD_FEDERATIVA=2" width="100%" height="500"></iframe></div>
+		<div class="container"><iframe src="http://www.transparenciapresupuestaria.gob.mx/es/PTP/mapa_ppef_2023_opa#" width="100%" height="500"></iframe></div>
+		
+			
 		</div>
-		-->
-	</div>
-
-
-
-
-	<!--
-		//
-		//SECCIÓN CONÓCENOS
-		//
-	-->
-	<!-- <div class="pnlTarjetas">
-		<div class="col-md-12 col-lg-12">
-			<div class="center">
-				<dt class="etiquetaConocenos">CONÓCENOS</dt>
-			</div>
-			<div id="news-slider" class="owl-carousel">
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                     
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Gobierno Abierto BC
-                        </h3>
-                        <p class="post-description">Priorizamos la transparencia, estableciendo una comunicación constante con la ciudadañia.</p>
-                  
-                        <a href="#" class="read-more">NONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                       
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Transparencia proactiva
-                        </h3>
-                        <p class="post-description">Compartimos información adicional de manera voluntaria, más allá de lo requerido por la ley.</p>
-                       
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                        
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Gobierno Digital
-                        </h3>
-                        <p class="post-description">Simplifica tus trámites, ahorra tiempo al acceder a una amplia gama de servicios en línea.</p>
-                       
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                      
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Estadísticas BC
-                        </h3>
-                        <p class="post-description">Descubre el panorama detallado de nuestra región a través de datos cuantitativos y tendencias clave.</p>
-                      
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                <div class="post-slide">
-                    <div class="post-img">
-                        <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-              
-                    </div>
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            Datos abiertos
-                        </h3>
-                        <p class="post-description">Sección para que la ciudadanía pueda consultar, descargar, utilizar, reutilizar y/o distribuir.</p>
-                    
-                        <a href="#" class="read-more">CONOCE MÁS <img class="btnImg" src="assets/img/icon_ArrowRight.svg" width="15"></a>
-                    </div>
-                </div>
-                
-			</div>
-		</div>
-	</div> -->
-
-	
-
-
-<!--
-		//
-		//SECCIÓN PILARES
 		
 	
 
-	<div id="main" class="container pnlMain">
-		<div id="pnlEncabezadoContenidoRow" class="row d-flex pnlEncabezado">
-			<div class="col-md-12 col-lg-12">
-				<div class="col-md-6 col-lg-6 encabezadoTexto">
-					<label class="pnlTitulo">Gobierno Abierto BC</label>
-					<label class="pnlSubTitulo">Para consultar las Obligaciones de Transparencia, conforme a la Ley de transparencia Acceso a la Información Pública del Estado de Baja California.</label>
-				</div>
-				<div class="col-md-6 col-lg-6 encabezadoImagen">
-					<img src="assets/img/header_gobierno.png" alt="IMG-ENCABEZADO">
-				</div>
-			</div>
-		</div>
-	</div>
-	-->
-	<!--
-		//
-		//SECCIÓN INFORMACIÓN DE INTERÉS
-		//
-	-->
-	<div class="pnlIntereses">
-		<!--
-		<div class="col-md-12 col-lg-12">
-			<div class="center" style="padding-top: 2%;">
-				<dt class="etiquetaConocenos">INFORMACIÓN DE INTERÉS</dt>
-			</div>
-			<div class="carouselIteres">
-				<div id="carouselExampleNoRide" class="carousel slide is-static" data-bs-interval="false">
-				  	<div class="carousel-indicators">
-				    	<button type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				    	<button type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				    	<button type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				  	</div>
-				  	<div class="carousel-inner">
-				    	<div class="carousel-item active">
-				      		<div class="contenidoCarousel d-block w-100">
-				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row centrarcontenidocarousel">
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
-				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
-				      						<p class="carouselSubTitulo">Conoce los pasos para <strong>revalidar la licencia de conducir en línea</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle101.png" class="carouselImg" alt="IMG-2-CAROUSEL">
-				      						<p class="carouselTitulo">Todo lo que quieres saber del coronavirus</p>
-				      						<p class="carouselSubTitulo">Conoce toda la información de utilidad, <strong>Aquí</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle102.png" class="carouselImg" alt="IMG-3-CAROUSEL">
-				      						<p class="carouselTitulo">Información Financiera</p>
-				      						<p class="carouselSubTitulo">Consulta aquí los <strong>ingresos y egresos</strong> del Gobierno del Estado.</p>
-				      					</div>
-				      				</div>
-				      			</div>
-				      		</div>
-				    	</div>
-				    	<div class="carousel-item">
-				    		<div class="contenidoCarousel d-block w-100">
-				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row centrarcontenidocarousel">
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
-				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
-				      						<p class="carouselSubTitulo">Conoce los pasos para <strong>revalidar la licencia de conducir en línea</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle101.png" class="carouselImg" alt="IMG-2-CAROUSEL">
-				      						<p class="carouselTitulo">Todo lo que quieres saber del coronavirus</p>
-				      						<p class="carouselSubTitulo">Conoce toda la información de utilidad, <strong>Aquí</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle102.png" class="carouselImg" alt="IMG-3-CAROUSEL">
-				      						<p class="carouselTitulo">Información Financiera</p>
-				      						<p class="carouselSubTitulo">Consulta aquí los <strong>ingresos y egresos</strong> del Gobierno del Estado.</p>
-				      					</div>
-				      				</div>
-				      			</div>
-				      		</div>
-				    	</div>
-				    	<div class="carousel-item">
-				    		<div class="contenidoCarousel d-block w-100">
-				      			<div class="col-md-12 col-lg-12">
-				      				<div class="row centrarcontenidocarousel">
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle100.png" class="carouselImg" alt="IMG-1-CAROUSEL">
-				      						<p class="carouselTitulo">¿Cómo revalidar la licencia en línea?</p>
-				      						<p class="carouselSubTitulo">Conoce los pasos para <strong>revalidar la licencia de conducir en línea</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle101.png" class="carouselImg" alt="IMG-2-CAROUSEL">
-				      						<p class="carouselTitulo">Todo lo que quieres saber del coronavirus</p>
-				      						<p class="carouselSubTitulo">Conoce toda la información de utilidad, <strong>Aquí</strong>.</p>
-				      					</div>
-				      					<div class="col-md-4 col-lg-4 contenidoCarouselDos">
-				      						<img src="assets/img/Rectangle102.png" class="carouselImg" alt="IMG-3-CAROUSEL">
-				      						<p class="carouselTitulo">Información Financiera</p>
-				      						<p class="carouselSubTitulo">Consulta aquí los <strong>ingresos y egresos</strong> del Gobierno del Estado.</p>
-				      					</div>
-				      				</div>
-				      			</div>
-				      		</div>
-				    	</div>
-				  	</div>
-				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide="prev">
-				    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    	<span class="visually-hidden">Previous</span>
-				  	</button>
-				  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleNoRide" data-bs-slide="next">
-				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    	<span class="visually-hidden">Next</span>
-				  	</button> 
-				</div>
-			</div>
-		</div>
-		-->
-	</div>
-	<!--
-		//
-		//SECCIÓN NOTICIAS BC
-		//
-	-->
-	<div class="pnlNoticiasBC">
-		<!--
-		<div class="col-md-12 col-lg-12">
-			<div class="center" style="padding-top: 2%;">
-				<dt class="etiquetaConocenos">NOTICIAS BC</dt>
-				<dt class="subetiqueta">Conoce las actividades de las dependencias y entidades</dt>
-				<div class="line"></div>
-			</div>
-			<div id="main" class="container pnlNoticias">
-				<div class="row d-flex pnlEncabezado">
-					<div class="col-md-12 col-lg-12">
-						<div class="col-md-6 col-lg-6 encabezadoTexto">
-							<p>NOTA 2023</p>
-							<label class="pnlNoticiasTitulo">TRANSPARENCIA PROACTIVA</label>
-							<label class="pnlNoticiasSubTitulo">En el Gobierno de Baja California, hemos adoptado un enfoque proactivo en materia de transparencia. En este sitio ponemos a su disposición información que contribuye a una gestión pública abierta y que rinde cuentas a la población. La Agencia Digital busca que la información que consultes en este micro sitio sea de utilidad social y se presente de una manera ciudadana y clara para facilitar su consulta en un sólo clic a través de: gráficos, mapas interactivos georreferenciados e infografías.</label>
-						</div>
-						<div class="col-md-6 col-lg-6 pnlNoticiasImagen">
-							<img class="noticiasImagen" src="assets/img/tree.jpg" alt="IMG-ENCABEZADO">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="pnlGrid">
-				<div class="pnlGridCarousel">
-					<div id="carouselGrid" class="carousel slide is-static" data-bs-interval="false">
-					  	<div class="carousel-indicators">
-					    	<button type="button" data-bs-target="#carouselGrid" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					    	<button type="button" data-bs-target="#carouselGrid" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					    	<button type="button" data-bs-target="#carouselGrid" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					  	</div>
-					  	<div class="carousel-inner">
-					    	<div class="carousel-item active">
-					      		<div class="pnlGridContenidoCarousel d-block w-100">
-					      			<div class="col-md-12 col-lg-12">
-					      				<div class="row center">
-					      					<div class="col-md-6 col-lg-6 pnlGridContenidoImg gridContenidoDos">
-					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 3</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 2</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 4</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      				</div>
-					      			</div>
-					      		</div>
-					    	</div>
-					    	<div class="carousel-item">
-					    		<div class="pnlGridContenidoCarousel d-block w-100">
-					      			<div class="col-md-12 col-lg-12">
-					      				<div class="row center">
-					      					<div class="col-md-6 col-lg-6 pnlGridContenidoImg gridContenidoDos">
-					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 3</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 2</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 4</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      				</div>
-					      			</div>
-					      		</div>
-					    	</div>
-					    	<div class="carousel-item">
-					    		<div class="pnlGridContenidoCarousel d-block w-100">
-					      			<div class="col-md-12 col-lg-12">
-					      				<div class="row center">
-					      					<div class="col-md-6 col-lg-6 pnlGridContenidoImg gridContenidoDos">
-					      						<img src="assets/img/construccion.png" class="gridImg" alt="IMG-1-CAROUSEL">
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">CONSTRUCCIÓN DE PUENTE CASABLANCA PRESENTA AVANCES SIGNIFICATIVOS: SIDURT</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 3</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      					<div class="col-md-3 col-lg-3 gridContenidoDos">
-					      						<div class="row d-flex gridCentrar">
-					      							<div class="gridCajas">
-							      						<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 2</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      							<div class="gridCajas">
-					      								<img src="assets/img/Icon.svg" class="gridImgIcon" alt="IMG-2-CAROUSEL">
-							      						<p class="gridTitulo">Noticia 4</p>
-							      						<p class="gridSubTitulo">Con el objetivo de reducir los tiempos de traslado de las y los tijuanenses y de otorgarles vialidades seguras, la Secretaría de Infraestructura, Desarrollo.</p>
-							      						<a class="gridLink" href="#">VER MÁS</a>
-					      							</div>
-					      						</div>
-					      					</div>
-					      				</div>
-					      			</div>
-					      		</div>
-					    	</div>
-					  	</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		-->
-	</div>
+	
 
-	<!--
-		//
-		//SECCIÓN SUSCRIBETE
-		//
-	-->
-	<div class="pnlSuscribete">
-		<!--
-		<div class="col-md-12 col-lg-12">
-			<div class="pnlSuscribeteContenido">
-				<dt class="encabezadoSuscribete">Suscríbete para recibir noticias</dt>
-				<div class="">
-					<form>
-						<input type="image" src="assets/img/IconL.png" class="image_buscar">
-						<input class="inputSuscribete" type="text" id="suscribe" name="suscribe" placeholder="Correo electrónico">
-						<button class="btn btnSuscribete" >Registrarme <img class="btnImg" src="assets/img/IconR.svg" width="25"></button>
-					</form>
-				</div>
-			</div>
-		</div>
-		-->
-	</div>
+		
+
+		
+
+		
+		
+	
+
+
+
+
 
 
 	<?php include './footer.php'; ?> <!-- Inclusión del archivo footer.php -->
