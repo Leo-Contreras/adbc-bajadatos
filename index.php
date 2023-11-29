@@ -273,8 +273,11 @@
 		</div> 
 		<div class="container"><iframe src="http://transparenciapresupuestaria.gob.mx/es/PTP/mapa_ucef#Ciclo=2022&amp;ID_ENTIDAD_FEDERATIVA=2" width="100%" height="500"></iframe></div>
 		<div class="container"><iframe src="http://www.transparenciapresupuestaria.gob.mx/es/PTP/mapa_ppef_2023_opa#" width="100%" height="500"></iframe></div>
-		
-			
+		<div class="container"><iframe src="https://www.google.com/maps/d/embed?mid=1r9TYrdmcoEtIbia6tAXlUdCVqpGR0NSI&ehbc=2E312F" width="100%" height="500"></iframe></div>
+		<div class="container"><iframe width="100%" height="500" src="https://embed.windy.com/embed2.html?lat=28.053&lon=-116.807&detailLat=28.053&detailLon=-116.807&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe></div>
+		<!-- <div class="container"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6779.839821269467!2d-116.595141!3d31.827174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d88e0faee8f88d%3A0xca50210da9ed736c!2sCAR%20Ensenada!5e0!3m2!1ses!2smx!4v1701212020355!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+		 -->
+		 <div class="container"><iframe src="https://www.google.com/maps/d/embed?mid=13DGpIB4NNDpgtUZEuunbvDSWB2XnzLE&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe></div>
 		</div>
 		
 	
