@@ -27,6 +27,14 @@
 	  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
 	  rel="stylesheet"
 	/>
+	<style>
+	.fondo-bc {
+		background-image: url('./assets/img/fondo.png');
+		background-size: cover; /* Para que la imagen cubra todo el fondo */
+		background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+		/* Aquí puedes ajustar otros estilos, como el color de texto, márgenes, etc. */
+	}
+</style>
 </head>
 <body>
 
@@ -275,7 +283,7 @@
 		<!-- Sección 4: Marco Normativo -->
 
 			
-			<div class="EncabezadoGobierno">
+			<div class="EncabezadoGobierno pb-5 mb-5">
 		<label class="ContenidoTitulo">Marco Normativo</label>
 		<div class="row">
 			<!-- Ley de Transparencia -->
@@ -300,137 +308,137 @@
 			</div>
 		</div>
 	</div>
-
-
-	<div class="EncabezadoGobierno">
-	<label class="ContenidoTitulo">Linea del Tiempo</label>
-	</div>
-
-		<section class="seccion-con-fondo">
-			<div class="container">
-
-		
-						<!-- Contenido de tu sección aquí -->
+	
+		<div class="fondo-bc">
+			<section class="seccion-con-fondo">
+				<div class="container">
+				<div class="col-md-12 text-center">
+					<label class="ContenidoTitulo ">Linea del Tiempo</label>
+				</div>
+				
+							<!-- Contenido de tu sección aquí -->
 						<div class="col-md-4">
-						<div class="container mt-5">
-					<div class="golden-border">
-						<div class="cherry-block">
-						1977
-						</div>
-						<p class="text-center mt-4">Modificación del artículo 6 constitucional, garantizando el derecho a la información por el Estado</p>
-					</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-4">
-					<div class="container mt-5">
-					<div class="golden-border">
-						<div class="cherry-block">
-						2002
-						</div>
-						<p class="text-center mt-4">Se promulga la primera Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental</p>
-					</div>
-					</div>
-					</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-				<div class="golden-border">
-					<div class="cherry-block">
-					2003
-					</div>
-					<p class="text-center mt-4">Se crea el primer Instituto de Acceso a la Información Pública con atribuciones exclusivas sobre el ámbito federal</p>
-				</div>
-				</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="container mt-5">
-					<div class="golden-border">
-						<div class="cherry-block">
-						2007
-						</div>
-						<p class="text-center mt-4">Se reforma el Artículo 6to Constitucional y establece una base mínima de información para garantizar el derecho de acceso a la información en México</p>
-					</div>
-					</div>
-					</div>
-					<div class="col-md-4">
-						<div class="container mt-5">
+							<div class="container mt-5 bg-white">
 						<div class="golden-border">
 							<div class="cherry-block">
-							2011
+							1977
 							</div>
-							<p class="text-center mt-4">México funda junto con ocho países la Alianza para el Gobierno Abierto</p>
+							<p class="text-center mt-4">Modificación del artículo 6 constitucional, garantizando el derecho a la información por el Estado</p>
 						</div>
 						</div>
+
 					</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2014
-			</div>
-			<p class="text-center mt-4">El IFAI se convierte en un Organismo Constitucional Autónomo: Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)</p>
-		</div>
-		</div>
 
+					<div class="col-md-4">
+						<div class="container mt-5 bg-white">
+						<div class="golden-border">
+							<div class="cherry-block">
+							2002
+							</div>
+							<p class="text-center mt-4">Se promulga la primera Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental</p>
+						</div>
+						</div>
+						</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+					<div class="golden-border">
+						<div class="cherry-block">
+						2003
+						</div>
+						<p class="text-center mt-4">Se crea el primer Instituto de Acceso a la Información Pública con atribuciones exclusivas sobre el ámbito federal</p>
+					</div>
+					</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="container mt-5 bg-white">
+						<div class="golden-border">
+							<div class="cherry-block">
+							2007
+							</div>
+							<p class="text-center mt-4">Se reforma el Artículo 6to Constitucional y establece una base mínima de información para garantizar el derecho de acceso a la información en México</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4">
+							<div class="container mt-5 bg-white">
+							<div class="golden-border">
+								<div class="cherry-block">
+								2011
+								</div>
+								<p class="text-center mt-4">México funda junto con ocho países la Alianza para el Gobierno Abierto</p>
+							</div>
+							</div>
+						</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2014
 				</div>
-				<div class="col-md-4"><div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2015
+				<p class="text-center mt-4">El IFAI se convierte en un Organismo Constitucional Autónomo: Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)</p>
 			</div>
-			<p class="text-center mt-4">El INAI amplía sus alcances sobre todos los poderes y órdenes de gobierno y encabeza el Sistema Nacional de Transparencia (SNT)</p>
-		</div>
-		</div>
-		</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2016
 			</div>
-			<p class="text-center mt-4">Se publican en el Diario Oficial de la Federación los Lineamientos para determinar los catálogos y publicación de información de interés público, y para la emisión y evaluación de políticas de transparencia proactiva, emitidos por el Sistema Nacional de Transparencia</p>
-		</div>
-		</div>
 
+					</div>
+					<div class="col-md-4"><div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2015
 				</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2017
+				<p class="text-center mt-4">El INAI amplía sus alcances sobre todos los poderes y órdenes de gobierno y encabeza el Sistema Nacional de Transparencia (SNT)</p>
 			</div>
-			<p class="text-center mt-4">Se implementan esfuerzos institucionales, en el marco del SNT, entre los que destacan los Reconocimientos de Prácticas de Transparencia Proactiva. Se emite la Guía de Gobierno Abierto en colaboración con SFP</p>
-		</div>
-		</div>
-
+			</div>
+			</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2016
 				</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2018
+				<p class="text-center mt-4">Se publican en el Diario Oficial de la Federación los Lineamientos para determinar los catálogos y publicación de información de interés público, y para la emisión y evaluación de políticas de transparencia proactiva, emitidos por el Sistema Nacional de Transparencia</p>
 			</div>
-			<p class="text-center mt-4">Se emite la edición 2018 de la Guía de Gobierno Abierto en colaboración con la SFP. Reconocimiento de Prácticas de Transparencia Proactiva (segunda edición)</p>
-		</div>
-		</div>
+			</div>
 
+					</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2017
 				</div>
-				<div class="col-md-4">
-				<div class="container mt-5">
-		<div class="golden-border">
-			<div class="cherry-block">
-			2019
+				<p class="text-center mt-4">Se implementan esfuerzos institucionales, en el marco del SNT, entre los que destacan los Reconocimientos de Prácticas de Transparencia Proactiva. Se emite la Guía de Gobierno Abierto en colaboración con SFP</p>
 			</div>
-			<p class="text-center mt-4">Se emite la Guía de Transparencia Proactiva. Reconocimiento de Prácticas de Transparencia Proactiva (tercera edición)</p>
-		</div>
-		</div>
+			</div>
 
-		</div>
+					</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2018
+				</div>
+				<p class="text-center mt-4">Se emite la edición 2018 de la Guía de Gobierno Abierto en colaboración con la SFP. Reconocimiento de Prácticas de Transparencia Proactiva (segunda edición)</p>
+			</div>
+			</div>
+
+					</div>
+					<div class="col-md-4">
+					<div class="container mt-5 bg-white">
+			<div class="golden-border">
+				<div class="cherry-block">
+				2019
+				</div>
+				<p class="text-center mt-4">Se emite la Guía de Transparencia Proactiva. Reconocimiento de Prácticas de Transparencia Proactiva (tercera edición)</p>
+			</div>
+			</div>
+
+			</div>
+		
+			</div>
+		</section>
+	</div>
 	
-		</div>
-	</section>
 		
 
 

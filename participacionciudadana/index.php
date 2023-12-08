@@ -14,7 +14,6 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<!-- Google Fonts -->
-
 	<link rel="stylesheet" type="text/css" href="../assets/css/Style.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.index.css">
 
@@ -136,40 +135,48 @@
 			<div class="modal fade" id="emailModal" tabindex="-1">
 				<div class="modal-dialog">
 					<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">Enviar Correo</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-					</div>
-					<div class="modal-body">
-						<!-- Aquí puedes colocar el formulario de correo -->
-					<form id="emailForm">
-						
-						<div class="mb-3">
-							<label for="emailSubject" class="form-label">Asunto:</label>
-							<input type="text" class="form-control" id="emailSubject" placeholder="Asunto del correo" required>
+						<div class="modal-header">
+							<h5 class="modal-title">Enviar Correo</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 						</div>
-						<div class="mb-3">
-							<label for="emailMessage" class="form-label">Mensaje:</label>
-							<textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+						<div class="modal-body">
+							<form id="emailForm">
+								<div class="mb-3">
+									<label for="emailSubject" class="form-label"><i class="fas fa-pencil-alt"></i> Asunto:</label>
+									<input type="text" class="form-control" id="emailSubject" placeholder="Asunto del correo" required>
+								</div>
+								<div class="mb-3">
+									<label for="emailAddress" class="form-label"><i class="fas fa-envelope"></i> Correo electrónico:</label>
+									<input type="email" class="form-control" id="emailAddress" placeholder="Correo electrónico" required>
+								</div>
+								<div class="mb-3">
+									<label for="emailMessage" class="form-label"><i class="fas fa-comment-dots"></i> Mensaje:</label>
+									<textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+								</div>
+								<div class="mb-3 form-check">
+									<input type="checkbox" class="form-check-input" id="termsCheckbox" required>
+									<label class="form-check-label" for="termsCheckbox">
+										Aceptar <a href="avisoprivacidad.pdf" target="_blank" rel="noopener noreferrer" class="text-black">Aviso de Privacidad</a>
+									</label>
+								</div>
+								
+							</form>
 						</div>
-					</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
-					</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-primary" form="emailForm"><i class="fas fa-paper-plane"></i> Enviar</button>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<div class="post-content">
-			<!-- ... -->
-			<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#emailModal">
-				<i class="fas fa-envelope"></i>
-			</button>
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#emailModal">
+					<i class="fas fa-envelope"></i>
+				</button>
 			</div>
-
-
 		</div>
+
 	</div>
         <!-- <div class="pnlInformacionFrecuente">
         <div class="col-md-12 col-lg-12">

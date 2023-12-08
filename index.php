@@ -135,7 +135,6 @@
 
 	-->
 	<!-- SECCION IMAGENES -->
-
 	
 		<div class="column-12 column-sm-12 tab" >
 
