@@ -12812,6 +12812,7 @@ body {
   .golden-border {
     border-top: 3px solid gold;
     border-bottom: 3px solid gold;
+    display: grid;
     padding: 1rem;
   }
   .cherry-block {
@@ -12821,9 +12822,14 @@ body {
     font-weight: bold;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
+    margin: auto;
     display: inline-block; /* To keep the block width according to content */
   }
   
+  .mb-4 {
+
+    border: none;
+}
 
   
   .navbar-brand {

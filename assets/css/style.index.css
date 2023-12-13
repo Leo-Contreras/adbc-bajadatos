@@ -1118,7 +1118,9 @@ input.image_buscar {
 .golden-border {
     border-top: 3px solid #b17a45;
     border-bottom: 3px solid #b17a45;
+    display: grid;
     padding: 1rem;
+    
   }
   .cherry-block {
     background-color: #6A1C32; /* Guinda color */
@@ -1127,8 +1129,15 @@ input.image_buscar {
     font-weight: bold;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
+    margin: auto;
     display: inline-block; /* To keep the block width according to content */
   }
+
+  .mb-4 {
+
+    border: none;
+}
+
 
   
   

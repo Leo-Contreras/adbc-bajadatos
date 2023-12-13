@@ -292,7 +292,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Ley de Transparencia y Acceso a la Información Pública</h5>
 						<p class="card-text">Para el estado de Baja California.</p>
-						<a href="URL_A_LA_LEY" class="btn btn-primary" target="_blank">Leer Más</a>
+						<!-- <a href="URL_A_LA_LEY" class="btn btn-primary" target="_blank">Leer Más</a> -->
 					</div>
 				</div>
 			</div>
@@ -302,7 +302,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Lineamientos para la Emisión y Evaluación</h5>
 						<p class="card-text">De políticas de transparencia proactiva para los sujetos obligados del estado de Baja California.</p>
-						<a href="URL_A_LOS_LINEAMIENTOS" class="btn btn-primary" target="_blank">Leer Más</a>
+						<!-- <a href="URL_A_LOS_LINEAMIENTOS" class="btn btn-primary" target="_blank">Leer Más</a> -->
 					</div>
 				</div>
 			</div>
@@ -317,7 +317,7 @@
 				</div>
 				
 							<!-- Contenido de tu sección aquí -->
-						<div class="col-md-4">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
 							<div class="container mt-5 bg-white">
 						<div class="golden-border">
 							<div class="cherry-block">
