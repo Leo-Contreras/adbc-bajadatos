@@ -10,6 +10,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
     
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
 	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/Style.css">
@@ -57,7 +58,7 @@
 				        		  	<a class="mainNavItem " href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
 								<li id="navTab04">
-									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
+									<a class="mainNavItem" href="./participacionciudadana.php">Participación Ciudadana</a>
 				        		</li>
 								<!--
 				        		<li id="navTab04">
@@ -81,13 +82,9 @@
 	    </header>
 	</div>
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<div class="pnlImagen">
+		<img class="imgEncabezado" src="assets/img/banner-gobiernoabierto.jpg" alt="IMG-ENGOBIERNO">
+	</div>
 
 <!--
 	<div class="pnlImagen">
@@ -137,18 +134,18 @@
 	<!-- SECCION IMAGENES -->
 	
 		<div class="column-12 column-sm-12 tab" >
+		<div class="container">
 
-			<div class="container">
-
-				<div class="col-md-7">
-					<h5 class="TitutloHeader">GOBIERNO ABIERTO BC</h5>	
-					<div class="SubtituloHeader">Para consultar las Obligaciones de Transparencia, conforme a la Ley de transparencia Acceso a la Información Pública del Estado de Baja California</div>
-				</div>
-				<div class="col-md-5">
-				 <img style="height: 400px;:" class="pd-4" src="./assets/img/header_gobierno.png" alt="gobierno abierto persona">
-				</div>
+			<div class="col-md-7">
+				<h5 class="TitutloHeader">GOBIERNO ABIERTO BC</h5>	
+				<div class="SubtituloHeader">Para consultar las Obligaciones de Transparencia, conforme a la Ley de transparencia Acceso a la Información Pública del Estado de Baja California</div>
+			</div>
+			<div class="col-md-5">
+			<img  class="pd-4" src="./assets/img/header_gobierno.png" alt="gobierno abierto persona">
+			</div>
 
 			</div>
+			
 
 			<div class="container">
 				<div class="custom-row">
@@ -263,37 +260,72 @@
 				<dt class="subetiqueta">Descubre la ubicación de los lugares de tu interés con nuestro mapa interactivo</dt>
 				<div class="line"></div>
 			
-		</div>
+			</div>
 <!--
 		<div style="padding: 100px; "> 
 				 <iframe id="iframe" src="maps/index.html" allow="geolocation" width="1000" height="500"  ></iframe> 
 -->				 
 		
 		</div> 
-		<div class="container"><iframe src="http://transparenciapresupuestaria.gob.mx/es/PTP/mapa_ucef#Ciclo=2022&amp;ID_ENTIDAD_FEDERATIVA=2" width="100%" height="500"></iframe></div>
-		<div class="container"><iframe src="http://www.transparenciapresupuestaria.gob.mx/es/PTP/mapa_ppef_2023_opa#" width="100%" height="500"></iframe></div>
-		<div class="container"><iframe src="https://www.google.com/maps/d/embed?mid=1r9TYrdmcoEtIbia6tAXlUdCVqpGR0NSI&ehbc=2E312F" width="100%" height="500"></iframe></div>
-		<div class="container"><iframe width="100%" height="500" src="https://embed.windy.com/embed2.html?lat=28.053&lon=-116.807&detailLat=28.053&detailLon=-116.807&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe></div>
-		<!-- <div class="container"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6779.839821269467!2d-116.595141!3d31.827174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d88e0faee8f88d%3A0xca50210da9ed736c!2sCAR%20Ensenada!5e0!3m2!1ses!2smx!4v1701212020355!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-		 -->
-		 <div class="container"><iframe src="https://www.google.com/maps/d/embed?mid=13DGpIB4NNDpgtUZEuunbvDSWB2XnzLE&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe></div>
+
+		<div class="container">
+			<div class="col-md-12 col-lg-12">
+				<div class="center" style="padding-top: 2%;">
+					
+					<!-- Pestañas de navegación -->
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="mapa1-tab" data-bs-toggle="tab" data-bs-target="#mapa1" type="button" role="tab" aria-controls="mapa1" aria-selected="true">Recaudación Local</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="mapa2-tab" data-bs-toggle="tab" data-bs-target="#mapa2" type="button" role="tab" aria-controls="mapa2" aria-selected="false">Inversión georreferenciados</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="mapa3-tab" data-bs-toggle="tab" data-bs-target="#mapa3" type="button" role="tab" aria-controls="mapa3" aria-selected="false">Puntos Naranja</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="mapa4-tab" data-bs-toggle="tab" data-bs-target="#mapa4" type="button" role="tab" aria-controls="mapa4" aria-selected="false">Viento</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="mapa5-tab" data-bs-toggle="tab" data-bs-target="#mapa5" type="button" role="tab" aria-controls="mapa5" aria-selected="false">Deportes BC</button>
+						</li>
+					</ul>
+
+					<!-- Contenido de las pestañas -->
+					<div class="tab-content" id="myTabContent" style="width: 100%; height: 600px;">
+            
+						<div class="tab-pane fade show active" id="mapa1" role="tabpanel" aria-labelledby="mapa1-tab">
+							<iframe src="http://transparenciapresupuestaria.gob.mx/es/PTP/mapa_ucef#Ciclo=2022&amp;ID_ENTIDAD_FEDERATIVA=2" width="100%" height="500"></iframe>
+						</div>
+						<div class="tab-pane fade" id="mapa2" role="tabpanel" aria-labelledby="mapa2-tab">
+							<iframe src="http://www.transparenciapresupuestaria.gob.mx/es/PTP/mapa_ppef_2023_opa#" width="100%" height="500"></iframe>
+						</div>
+						<div class="tab-pane fade" id="mapa3" role="tabpanel" aria-labelledby="mapa3-tab">
+							<iframe src="https://www.google.com/maps/d/embed?mid=1r9TYrdmcoEtIbia6tAXlUdCVqpGR0NSI&ehbc=2E312F" width="100%" height="500"></iframe>
+						</div>
+						<div class="tab-pane fade" id="mapa4" role="tabpanel" aria-labelledby="mapa4-tab">
+							<iframe src="https://embed.windy.com/embed2.html?lat=28.053&lon=-116.807&detailLat=28.053&detailLon=-116.807&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0" width="100%" height="500"></iframe>
+						</div>
+						<div class="tab-pane fade" id="mapa5" role="tabpanel" aria-labelledby="mapa5-tab">
+							<iframe src="https://www.google.com/maps/d/embed?mid=13DGpIB4NNDpgtUZEuunbvDSWB2XnzLE&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		</div>
 		
-	
-
-	
-
-		
-
-		
-
-		
-		
-	
-
-
-
-
 
 
 	<?php include './footer.php'; ?> <!-- Inclusión del archivo footer.php -->
@@ -360,6 +392,8 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/js/boosted.bundle.min.js" integrity="sha384-a3K6jz95fJEM/VHhViODijMUDGZsk3kzR9A9te5dH5jYIoXW7scODk+TtVjLhCW2" crossorigin="anonymous"></script>
+
+
 	<script type="text/javascript" src="assets/js/slide.js"></script>
 	<!-- MDB -->
 	<script

@@ -64,8 +64,9 @@ include('includes/config.php');
 			</div>
 		</header>
 	</div>
+	
 	<div class="pnlImagen">
-		<img class="imgEncabezado" src="assets/img/021.png" alt="IMG-ENGOBIERNO">
+		<img class="imgEncabezado" src="assets/img/baner-participacion.jpg" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//

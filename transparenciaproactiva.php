@@ -72,7 +72,7 @@
 				        		  	<a class="mainNavItem activeSelected" href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
 								<li id="navTab04">
-									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
+									<a class="mainNavItem" href="./participacionciudadana.php">Participación Ciudadana</a>
 				        		</li>
 								<!--
 				        		<li id="navTab04">
@@ -101,7 +101,7 @@
 
 
 	<div class="pnlImagen">
-		<img class="imgEncabezado" src="assets/img/banner_proactiva.png" alt="IMG-ENGOBIERNO">
+		<img class="imgEncabezado" src="assets/img/baner-transparencia.jpg" alt="IMG-ENGOBIERNO">
 	</div>
 
 	<!--

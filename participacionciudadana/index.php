@@ -78,8 +78,8 @@
 			</header>
 		</div>
 
-	<div class="pnlImagen">
-		<img class="imgEncabezado" src="../assets/img/021.png" alt="IMG-ENGOBIERNO">
+		<div class="pnlImagen">
+		<img class="imgEncabezado" src="../assets/img/baner-participacion.jpg" alt="IMG-ENGOBIERNO">
 	</div>
 	<!--
 		//

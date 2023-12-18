@@ -204,9 +204,7 @@
     padding: 10px;
 }
 
-.tab-content {
-    overflow: auto;
-}
+
 
 .row {
     display: flex;

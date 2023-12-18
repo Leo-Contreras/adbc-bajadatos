@@ -66,7 +66,7 @@
 				        		  	<a class="mainNavItem" href="transparenciaproactiva.php">Transparencia Proactiva</a>
 				        		</li>
 								<li id="navTab04">
-									<a class="mainNavItem" href="./participacionciudadana/">Participación Ciudadana</a>
+									<a class="mainNavItem" href="./participacionciudadana.php">Participación Ciudadana</a>
 				        		</li>
 								<!--
 				        		<li id="navTab04">
