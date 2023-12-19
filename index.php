@@ -132,8 +132,9 @@
 
 	-->
 	<!-- SECCION IMAGENES -->
-	
-		<div class="column-12 column-sm-12 tab" >
+	<div class="column-12 column-sm-12 tab" >
+	<!--
+		
 		<div class="container">
 
 			<div class="col-md-7">
@@ -146,7 +147,7 @@
 
 			</div>
 			
-
+	-->
 			<div class="container">
 				<div class="custom-row">
 					<!-- Columna grande a la izquierda -->
