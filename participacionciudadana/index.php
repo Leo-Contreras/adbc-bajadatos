@@ -140,41 +140,52 @@
 							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 						</div>
 						<div class="modal-body">
-							<form id="emailForm">
+							<form id="emailForm" method="POST" action="send_email.php">
 								<div class="mb-3">
 									<label for="emailSubject" class="form-label"><i class="fas fa-pencil-alt"></i> Asunto:</label>
-									<input type="text" class="form-control" id="emailSubject" placeholder="Asunto del correo" required>
+									<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Asunto del correo" required>
+								</div>
+								<div class="mb-3">
+									<label for="username" class="form-label"><i class="fas fa-pencil-alt"></i> Nombre:</label>
+									<input type="text" class="form-control" id="username" name="username" placeholder="Tu nombre completo" required>
 								</div>
 								<div class="mb-3">
 									<label for="emailAddress" class="form-label"><i class="fas fa-envelope"></i> Correo electrónico:</label>
-									<input type="email" class="form-control" id="emailAddress" placeholder="Correo electrónico" required>
+									<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Correo electrónico" required>
+								</div>
+								<div class="mb-3">
+									<label for="phoneNumber" class="form-label"><i class="fas fa-phone"></i> Número de teléfono:</label>
+									<input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Número de teléfono" required pattern="[0-9]{10}">
 								</div>
 								<div class="mb-3">
 									<label for="emailMessage" class="form-label"><i class="fas fa-comment-dots"></i> Mensaje:</label>
-									<textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+									<textarea class="form-control" id="emailMessage" name="emailMessage" rows="4" required></textarea>
 								</div>
 								<div class="mb-3 form-check">
-									<input type="checkbox" class="form-check-input" id="termsCheckbox" required>
+									<input type="checkbox" class="form-check-input" id="termsCheckbox" name="termsCheckbox" required>
 									<label class="form-check-label" for="termsCheckbox">
 										Aceptar <a href="avisoprivacidad.pdf" target="_blank" rel="noopener noreferrer" class="text-black">Aviso de Privacidad</a>
 									</label>
 								</div>
-								
+								<div class="modal-footer">
+									<button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
+								</div>
 							</form>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-primary" form="emailForm"><i class="fas fa-paper-plane"></i> Enviar</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-			<div class="post-content">
-				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#emailModal">
-					<i class="fas fa-envelope"></i>
+		<div class="post-content">
+			<div class="container">
+				<button type="button" class="btn btn-primary btn-lg custom-submit-button" data-bs-toggle="modal" data-bs-target="#emailModal">
+					<i class="fas fa-envelope"></i> Escríbenos
 				</button>
 			</div>
+		</div>
+
+
 		</div>
 
 	</div>
@@ -219,6 +230,73 @@
             </div>
         </div>
     </div> -->
+<!-- envio de correos -->
+
+<?php
+// Asegúrate de que estás recibiendo una solicitud POST del formulario
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Recoge los datos del formulario
+    $subject = $_POST["emailSubject"];
+    $name = $_POST["username"];
+    $email = $_POST["emailAddress"];
+    $phone = $_POST["phoneNumber"];
+    $messageContent = $_POST["emailMessage"];
+
+    // Reemplaza 'tu_clave_de_la_api_mandrill' con tu clave API real de Mandrill
+    $apiKey = 'tu_clave_de_la_api_mandrill';
+    $apiEndpoint = 'https://mandrillapp.com/api/1.0/messages/send.json';
+
+    // Configura el mensaje a enviar
+    $message = array(
+        'key' => $apiKey,
+        'message' => array(
+            'html' => nl2br($messageContent), // Convierte los saltos de línea en <br>
+            'text' => $messageContent,
+            'subject' => $subject,
+            'from_email' => $email,
+            'from_name' => $name,
+            'to' => array(
+                array(
+                    'email' => 'destinatario@correo.com', // El correo al que deseas enviar
+                    'name' => 'Nombre del Destinatario', // El nombre del destinatario
+                    'type' => 'to'
+                )
+            ),
+            'headers' => array('Reply-To' => $email),
+        ),
+        'async' => false,
+        'ip_pool' => 'Main Pool'
+    );
+
+    // Inicializa cURL
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($message));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+    // Envía el correo
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    // Maneja la respuesta
+    $result = json_decode($response, true);
+
+    if(isset($result[0]['status']) && $result[0]['status'] == 'sent') {
+        echo "Mensaje enviado con éxito.";
+    } else {
+        // Error al enviar el mensaje
+        echo "Error al enviar el mensaje: ";
+        print_r($result);
+    }
+} else {
+    echo "Debes enviar el formulario con el método POST.";
+}
+?>
+
+
 
 		
 		<!-- Modal -->
@@ -367,6 +445,28 @@ $enlaces = [
 	    </div>
 	    <div id="pie-guinda"></div>
 	</footer> -->
+	<script>
+		document.getElementById('emailForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevenir la recarga de la página
+    
+    var formData = new FormData(this);
+    
+    fetch('send_email.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text()) // o response.json() si tu backend devuelve JSON
+    .then(text => {
+        alert(text); // Muestra la respuesta del servidor
+        $('#emailModal').modal('hide'); // Oculta el modal usando jQuery
+        this.reset(); // Resetea el formulario
+    })
+    .catch(error => {
+        alert('Hubo un error al enviar el formulario: ' + error.message);
+    });
+});
+
+	</script>
 	<script src="integrarBlogs.js"></script>
 	<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>

@@ -1179,3 +1179,24 @@ input.image_buscar {
     background-color: #6A1C32;
 }
 
+
+.btn-primary.custom-submit-button {
+    background-color: #0056b3; /* Color de fondo del botón */
+    border-color: #004085; /* Color del borde del botón */
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    padding: 15px 30px; /* Padding para hacer el botón más grande */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave para efectos al pasar el mouse */
+}
+
+.btn-primary.custom-submit-button:hover, .btn-primary.custom-submit-button:focus {
+    background-color: #004494; /* Color de fondo más oscuro al pasar el mouse o enfocar */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el mouse o enfocar */
+}
+
+.btn-primary.custom-submit-button:active {
+    background-color: #003875; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más plana al hacer clic */
+}
