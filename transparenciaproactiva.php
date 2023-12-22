@@ -137,7 +137,7 @@
             <div class="card-header" style="background-color: #6a1c32; color: white; font-size: 24px;">
                 Disminuir asimetrías de la información
             </div>
-            <img src="assets/img/foto1.jpg" class="card-img-top mx-auto" alt="Imagen 1" style="max-width: 300px; max-height: 300px;">
+            <img src="assets/img/foto1.jpeg" class="card-img-top mx-auto" alt="Imagen 1" style="width: 600px; height: 400px;">
             <div class="card-body">
                 <!-- Aquí podrías poner más información si es necesario -->
             </div>
@@ -148,7 +148,7 @@
             <div class="card-header" style="background-color: #6a1c32; color: white; font-size: 24px;">
                 Mejorar el acceso a trámites y/o servicios
             </div>
-            <img src="assets/img/foto1.jpg" class="card-img-top mx-auto" alt="Imagen 2" style="max-width: 300px; max-height: 300px;">
+            <img src="assets/img/foto2.jpeg" class="card-img-top mx-auto" alt="Imagen 2" style="width: 600px; height: 400px;">
             <div class="card-body">
                 <!-- Aquí podrías poner más información si es necesario -->
             </div>
@@ -159,7 +159,7 @@
             <div class="card-header" style="background-color: #6a1c32; color: white; font-size: 24px;">
                 Facilitar la toma de decisiones
             </div>
-            <img src="assets/img/foto1.jpg" class="card-img-top mx-auto" alt="Imagen 3" style="max-width: 300px; max-height: 300px;">
+            <img src="assets/img/foto3.jpeg" class="card-img-top mx-auto" alt="Imagen 3" style="width: 600px; height: 400px;">
             <div class="card-body">
                 <!-- Aquí podrías poner más información si es necesario -->
             </div>
@@ -170,7 +170,7 @@
             <div class="card-header" style="background-color: #6a1c32; color: white; font-size: 24px;">
                 Hacer efectiva la rendición de cuentas
             </div>
-            <img src="assets/img/foto1.jpg" class="card-img-top mx-auto" alt="Imagen 4" style="max-width: 300px; max-height: 300px;">
+            <img src="assets/img/foto4.jpeg" class="card-img-top mx-auto" alt="Imagen 4" style="width: 600px; height: 400px;">
             <div class="card-body">
                 <!-- Aquí podrías poner más información si es necesario -->
             </div>
@@ -187,13 +187,13 @@
 		
 <!-- Sección 3: Características -->
 <div class="EncabezadoGobierno">
-    <label class="ContenidoTitulo">Caracteristicas</label>
+    <label class="ContenidoTitulo">Características</label>
 
     <div class="row pt-5 mt-5 align-items-stretch">
         <!-- Columna Izquierda: Listado de Características en 2 columnas -->
         <div class="col-lg-6 col-md-12">
             <div class="row">
-                <!-- Característica 1 -->
+                <!-- Característica 1 - Accesible -->
                 <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
@@ -201,8 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Característica 2 a 9 (seguir el mismo patrón) -->
-                <!-- Característica 2 -->
+                <!-- Característica 2 - Confiable -->
                 <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
@@ -210,65 +209,74 @@
                         </div>
                     </div>
                 </div>
-                <!-- Continuar con las demás características... -->
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 3 - Comprensible -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Comprensible
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 4 - Oportuna -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Oportuna
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 5 - Veraz -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Veraz
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 6 - Congruente -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Congruente
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 7 - Completa -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Completa
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 8 - Actualizada -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Actualizada
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 9 - Verificable -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Verificable
                         </div>
                     </div>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                <!-- Característica 10 - Transparente -->
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Confiable
+                            <i class="fa fa-check-circle mr-2" style="color: green;"></i>Transparente
                         </div>
                     </div>
                 </div>
+                <!-- Continuar con las demás características si es necesario... -->
             </div>
         </div>
+
 
         <!-- Columna Derecha: Imagen -->
     <!-- Columna Derecha: Imagen -->

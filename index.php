@@ -148,45 +148,15 @@
 			</div>
 			
 	-->
-			<div class="container">
-				<div class="custom-row">
-					<!-- Columna grande a la izquierda -->
-					<div class="col-md-8 col-xs-12 box-tab" style="height: 500px;">
-						<div class="effect grid-width8 effect-two">
-							<a href="https://micrositios.inai.org.mx/gobiernoabierto/" target="_blank">
-								<img src="./assets/img/inai.png" class="img-fluid">
-							</a>
-						</div>
-					</div>
-					<!-- Columna con 3 imágenes a la derecha -->
-					<div class="col-md-4 col-xs-12 box-tab hide-xs hide-sm hide-md" style="height: 500px;">
-						<div class="effect effect-two" style="height: 33%;">
-							<a href="https://www.itaipbc.org.mx/itaipBC-2019/" target="_blank">
-								<img src="./assets/img/ITAIP.png" class="img-fluid">
-							</a>
-						</div>
-						<div class="effect effect-two" style="height: 33%;">
-							<a href="https://www.plataformadetransparencia.org.mx/" target="_blank">
-								<img src="./assets/img/transparencia.jpg" class="img-fluid">
-							</a>
-						</div>
-						<div class="effect effect-two" style="height: 33%;">
-							<a href="https://www.economia.gob.mx/datamexico/es/explore?q=baja%20california" target="_blank">
-								<img src="./assets/img/datos.svg" class="img-fluid">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-				
+			
 
 
-				<div class="custom-row" style="display: grid; place-items: center; padding-top: 5%;">
+				<div class="custom-row" style="display: grid; place-items: center; padding-top: 2%;">
  
 					<div class="container pb-4" style="margin: auto;">
 								
 					<label class="ContenidoTitulo ">¿Qué es Gobierno Abierto?</label>
-					<label class="pnlNoticiasSubTitulo">es una estrategia innovadora en el que se entabla una constante conversación con la ciudadanía utilizando las tecnologías de comunicación para conectar a la sociedad bajacaliforniana con el Estado, con la finalidad de tener instituciones más eficientes, democráticas y más sólidas, a través de la apertura gubernamental.</label>
+					<label class="pnlNoticiasSubTitulo">Es una estrategia innovadora en el que se entabla una constante conversación con la ciudadanía utilizando las tecnologías de comunicación para conectar a la sociedad bajacaliforniana con el Estado, con la finalidad de tener instituciones más eficientes, democráticas y más sólidas, a través de la apertura gubernamental.</label>
 					
 				</div>
 				</div>
@@ -205,7 +175,7 @@
 	
 	<div class="container">
 		<div class="col-md-12 col-lg-12 ">
-			<div class="center" style="padding-top: 10%;">
+			<div class="center" style="padding-top: 5%;">
 				<dt class="etiquetaConocenos">NUESTROS PILARES</dt>
 				<dt class="subetiqueta">Al unir nuestras fuerzas, podemos lograr cambios significativos y duraderos</dt>
 				<div class="line"></div>
@@ -321,11 +291,43 @@
 		
 		
 		
-		
+		<div class="container">
+				<div class="custom-row">
+					<!-- Columna grande a la izquierda -->
+					<div class="col-md-8 col-xs-12 box-tab" style="height: 500px;">
+						<div class="effect grid-width8 effect-two">
+							<a href="https://micrositios.inai.org.mx/gobiernoabierto/" target="_blank">
+								<img src="./assets/img/inai.png" class="img-fluid">
+							</a>
+						</div>
+					</div>
+					<!-- Columna con 3 imágenes a la derecha -->
+					<div class="col-md-4 col-xs-12 box-tab hide-xs hide-sm hide-md" style="height: 500px;">
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.itaipbc.org.mx/itaipBC-2019/" target="_blank">
+								<img src="./assets/img/ITAIP.png" class="img-fluid">
+							</a>
+						</div>
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.plataformadetransparencia.org.mx/" target="_blank">
+								<img src="./assets/img/transparencia.jpg" class="img-fluid">
+							</a>
+						</div>
+						<div class="effect effect-two" style="height: 33%;">
+							<a href="https://www.economia.gob.mx/datamexico/es/explore?q=baja%20california" target="_blank">
+								<img src="./assets/img/datos.svg" class="img-fluid">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		
 		
 		
 		</div>
+
+		
+				
 		
 
 

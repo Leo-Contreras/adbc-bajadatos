@@ -64,7 +64,6 @@ include('includes/config.php');
 			</div>
 		</header>
 	</div>
-	
 	<div class="pnlImagen">
 		<img class="imgEncabezado" src="assets/img/baner-participacion.jpg" alt="IMG-ENGOBIERNO">
 	</div>
@@ -76,12 +75,12 @@ include('includes/config.php');
 	<div class="EncabezadoGobierno">
 		<div class="col-md-12 col-lg-12">
 			<div class="centrar">
-				<div class="ContenidoTexto">
-					<label class="ContenidoTitulo">Participación ciudadana
-					</label>
-					<br>
-					<label class="ContenidoSubTitulo">La transparencia proactiva implica compartir información adicional de manera voluntaria, más allá de lo requerido por la ley, para satisfacer las necesidades específicas de ciertos grupos o sectores. Es una forma de generar conocimiento útil y accesible para el público en general.</label>
-				</div>
+			<div class="ContenidoTexto">
+				<label class="ContenidoTitulo">¿Qué es la participación ciudadana?</label>
+				<br>
+				<label class="ContenidoSubTitulo">Este espacio es para ti que deseas aportar junto con el gobierno a la construcción de un mejor país. Únete a esta misión por el fortalecimiento de la democracia, la transparencia y la innovación. ¡Participa!</label>
+			</div>
+
 			</div>
 		</div>
 	</div>
@@ -169,6 +168,9 @@ include('includes/config.php');
 				?>
 			</div>
 		</div>
+		
+		
+
 		<div class="col-md-8">
 			<div class="modal fade" id="emailModal" tabindex="-1">
 				<div class="modal-dialog">
@@ -178,30 +180,54 @@ include('includes/config.php');
 							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 						</div>
 						<div class="modal-body">
-							<!-- Aquí puedes colocar el formulario de correo -->
-							<form id="emailForm">
+							<form id="emailForm" method="POST" action="send_email.php">
 								<div class="mb-3">
-									<label for="emailSubject" class="form-label">Asunto:</label>
-									<input type="text" class="form-control" id="emailSubject" placeholder="Asunto del correo" required>
+									<label for="emailSubject" class="form-label"><i class="fas fa-pencil-alt"></i> Asunto:</label>
+									<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Asunto del correo" required>
 								</div>
 								<div class="mb-3">
-									<label for="emailMessage" class="form-label">Mensaje:</label>
-									<textarea class="form-control" id="emailMessage" rows="4" required></textarea>
+									<label for="username" class="form-label"><i class="fas fa-pencil-alt"></i> Nombre:</label>
+									<input type="text" class="form-control" id="username" name="username" placeholder="Tu nombre completo" required>
+								</div>
+								<div class="mb-3">
+									<label for="emailAddress" class="form-label"><i class="fas fa-envelope"></i> Correo electrónico:</label>
+									<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Correo electrónico" required>
+								</div>
+								<div class="mb-3">
+									<label for="phoneNumber" class="form-label"><i class="fas fa-phone"></i> Número de teléfono:</label>
+									<input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Número de teléfono" required pattern="[0-9]{10}">
+								</div>
+								<div class="mb-3">
+									<label for="emailMessage" class="form-label"><i class="fas fa-comment-dots"></i> Mensaje:</label>
+									<textarea class="form-control" id="emailMessage" name="emailMessage" rows="4" required></textarea>
+								</div>
+								<div class="mb-3 form-check">
+									<input type="checkbox" class="form-check-input" id="termsCheckbox" name="termsCheckbox" required>
+									<label class="form-check-label" for="termsCheckbox">
+										Aceptar <a href="avisoprivacidad.pdf" target="_blank" rel="noopener noreferrer" class="text-black">Aviso de Privacidad</a>
+									</label>
+								</div>
+								<div class="modal-footer">
+									<button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
 								</div>
 							</form>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="post-content">
-				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#emailModal">
-					<i class="fas fa-envelope"></i>
+		</div>
+
+		<div class="post-content">
+			<div class="container">
+				<button type="button" class="btn btn-primary btn-lg custom-submit-button" data-bs-toggle="modal" data-bs-target="#emailModal">
+					<i class="fas fa-envelope"></i> Escríbenos
 				</button>
 			</div>
 		</div>
+
+
+		</div>
+
 	</div>
 
 	<?php include 'includes/footer.php'; ?>

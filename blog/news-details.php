@@ -80,20 +80,20 @@ if (isset($_POST['submit'])) {
     <div class="row" style="margin-top: -8%">
       <div class="col-md-8">
         <div class="card my-4">
-          <h5 class="card-header">COEPRIS Comisionado Estatal para la Protección contra Riesgos Sanitarios:</h5>
+          <h5 class="card-header">Deja tu comentario</h5>
           <div class="card-body">
             <form name="Comment" method="post">
               <input type="hidden" name="csrftoken" value="<?php echo htmlentities($_SESSION['token']); ?>" />
               <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Enter your fullname" required>
+                <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
               </div>
               <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Enter your Valid email" required>
+                <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="comment" rows="3" placeholder="Comment" required></textarea>
+                <textarea class="form-control" name="comment" rows="3" placeholder="Comentario" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+              <button type="submit" class="btn btn-primary" name="submit">Enviar</button>
             </form>
           </div>
         </div>
